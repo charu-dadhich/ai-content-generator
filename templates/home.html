@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block scripts %} 
+    <script src="{% static 'js/base.js' %}" defer></script>
+    <script src="{% static 'js/home.js' %}" defer></script>
+{% endblock %}
+
+{% block logo %}
+    <div class="space-y-8">
+        <div class="text-center mb-8">
+        <div class="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-full mb-4">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+        </div>
+        <h2 class="text-3xl font-bold gradient-text mb-2">Course Selection</h2>
+        <p class="text-gray-600">Choose your educational parameters</p>
+    </div>
+{% endblock %}
+
+{% block content %}                   
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="group">
+            <label class="block text-sm font-semibold text-gray-700 mb-3">Select Board</label>
+            <div class="relative">
+                <select name="board_id" class="school-board w-full p-4 border-2 border-gray-200 rounded-xl focus:ring-4 focus:ring-blue-100 focus:border-blue-500 transition-all duration-200 bg-white shadow-sm hover:shadow-md">
+                    <option value="">Choose Board</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="group">
+            <label class="block text-sm font-semibold text-gray-700 mb-3">Select Grade</label>
+            <div class="relative">
+                <select name="standard_id" class="school-grade w-full p-4 border-2 border-gray-200 rounded-xl focus:ring-4 focus:ring-blue-100 focus:border-blue-500 transition-all duration-200 bg-white shadow-sm hover:shadow-md disabled:bg-gray-50 disabled:cursor-not-allowed" disabled>
+                    <option value="">Choose Grade</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="group">
+            <label class="block text-sm font-semibold text-gray-700 mb-3">Select Subject</label>
+            <div class="relative">
+                <select name="subject_id" class="subject-name w-full p-4 border-2 border-gray-200 rounded-xl focus:ring-4 focus:ring-blue-100 focus:border-blue-500 transition-all duration-200 bg-white shadow-sm hover:shadow-md disabled:bg-gray-50 disabled:cursor-not-allowed" disabled>
+                    <option value="">Choose Subject</option>    
+                </select>
+            </div>
+        </div>
+
+        <div class="group">
+            <label class="block text-sm font-semibold text-gray-700 mb-3">Select Chapter</label>
+            <div class="relative">
+                <select name="chapter_id" class="chapter-name w-full p-4 border-2 border-gray-200 rounded-xl focus:ring-4 focus:ring-blue-100 focus:border-blue-500 transition-all duration-200 bg-white shadow-sm hover:shadow-md disabled:bg-gray-50 disabled:cursor-not-allowed" disabled>
+                    <option value="">Choose Chapter</option>
+                </select>
+            </div>
+        </div>
+    </div>
+{% endblock %}

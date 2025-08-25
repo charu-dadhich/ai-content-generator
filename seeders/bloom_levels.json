@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Remember",
+        "icon": "🧠"
+    },
+    {
+        "name": "Understand",
+        "icon": "💡"
+    },
+    {
+        "name": "Apply",
+        "icon": "⚡"
+    },
+    {
+        "name": "Analyse",
+        "icon": "🔍"
+    },
+    {
+        "name": "Evaluate",
+        "icon": "⚖️"
+    },
+    {
+        "name": "Create",
+        "icon": "✨"
+    }
+]

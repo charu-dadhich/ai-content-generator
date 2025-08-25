@@ -1,0 +1,66 @@
+/* Center the form-box vertically and horizontally
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+
+.form-box {
+    background-color: #ffffff;
+    padding: 0px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 800px;
+}
+
+select{
+    width: 340px;
+    height: 50px;
+    border-radius: 8px;
+    margin: 5px;
+}
+*.disabled {
+  cursor: not-allowed;
+}
+
+.select-heading{
+  display: inline-flex;
+  font-weight: 300;
+
+}
+
+option{
+    display: inline-flex;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  /* gap: 20px; spacing between columns and rows */
+  /* max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.web-title{
+    /* background-color: rgb(230, 33, 237); */
+/* }
+
+.top-head{
+    background-color: aquamarine;
+}
+
+h6{
+    margin-bottom: 60px;
+} */ */ */

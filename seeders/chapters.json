@@ -1,0 +1,2168 @@
+[
+  // {"title": "Two Little Hands", "subject_id": 120 },
+  // { "title": "Greetings", "subject_id": 120 },
+  // { "title": "Picture Time", "subject_id": 120 },
+  // { "title": "The Cap-seller and the Monkeys", "subject_id": 120 },
+  // { "title": "A Farm", "subject_id": 120 },
+  // { "title": "Fun with Pictures", "subject_id": 120 },
+  // { "title": "The Food We Eat", "subject_id": 120 },
+  // { "title": "The Four Seasons", "subject_id": 120 },
+  // { "title": "Anandi’s Rainbow", "subject_id": 120 },
+
+  // { "title": "मीना का परिवार", "subject_id": 121},
+  // { "title": "चन्दा मामा दूर के", "subject_id": 121},
+  // { "title": "दादा-दादी", "subject_id": 121},
+  // { "title": "रीना का दिन", "subject_id": 121},
+  // { "title": "रानी भी", "subject_id": 121},
+  // { "title": "मुर्गा बोला कुकड़ू-कूँ", "subject_id": 121},
+  // { "title": "मिठाई", "subject_id": 121},
+  // { "title": "तीन साथी", "subject_id": 121},
+  // { "title": "वाह, मेरे घोड़े!", "subject_id": 121},
+  // { "title": "खतरे में साँप", "subject_id": 121},
+  // { "title": "आलू की सड़क", "subject_id": 121},
+  // { "title": "झूलम-झूली", "subject_id": 121},
+  // { "title": "भुट्टे", "subject_id": 121},
+  // { "title": "फूली रोटी", "subject_id": 121},
+  // { "title": "मेला", "subject_id": 121},
+  // { "title": "बरखा और मेघा", "subject_id": 121},
+  // { "title": "होली", "subject_id": 121},
+  // { "title": "जन्मदिन पर पेड़ लगाओ", "subject_id": 121},
+  // { "title": "हवा", "subject_id": 121},
+  // { "title": "कितनी प्यारी है ये दुनिया", "subject_id": 121},
+  // { "title": "चाँद का बच्चा", "subject_id": 121},
+
+  // { "title": "Finding the Furry Cat! (Pre-number Concepts)", "subject_id": 122 },
+  // { "title": "What is Long? What is Round? (Shapes)", "subject_id": 122 },
+  // { "title": "Mango Treat (Numbers 1 to 9)", "subject_id": 122 },
+  // { "title": "Making 10 (Numbers 10 to 20)", "subject_id": 122 },
+  // { "title": "How Many? (Addition and Subtraction of Single Digit Numbers)", "subject_id": 122 },
+  // { "title": "Vegetable Farm (Addition and Subtraction up to 20)", "subject_id": 122 },
+  // { "title": "Lina’s Family (Measurement)", "subject_id": 122 },
+  // { "title": "Fun with Numbers (Numbers 21 to 99)", "subject_id": 122 },
+  // { "title": "Utsav (Patterns)", "subject_id": 122 },
+  // { "title": "How do I Spend my Day? (Time)", "subject_id": 122 },
+  // { "title": "How Many Times? (Multiplication)", "subject_id": 122 },
+  // { "title": "How Much Can We Spend? (Money)", "subject_id": 122 },
+  // { "title": "So Many Toys (Data Handling)", "subject_id": 122 },
+
+  // { "title": "My Bicycle", "subject_id": 126 },
+  // { "title": "Picture Reading", "subject_id": 126 },
+  // { "title": "It is Fun", "subject_id": 126 },
+  // { "title": "Seeing without Seeing", "subject_id": 126 },
+  // { "title": "Come Back Soon", "subject_id": 126 },
+  // { "title": "Between Home and School", "subject_id": 126 },
+  // { "title": "This is My Town", "subject_id": 126 },
+  // { "title": "A Show of Clouds", "subject_id": 126 },
+  // { "title": "My Name", "subject_id": 126 },
+  // { "title": "The Crow", "subject_id": 126 },
+  // { "title": "The Smart Monkey", "subject_id": 126 },
+  // { "title": "Little Drops of Water", "subject_id": 126 },
+  // { "title": "We are all Indians", "subject_id": 126 },
+
+
+  // { "title": "नीमा की दादी", "subject_id": 127 },
+  // { "title": "घर", "subject_id": 127 },
+  // { "title": "माला की चाँदी की पायल", "subject_id": 127 },
+  // { "title": "माँ", "subject_id": 127 },
+  // { "title": "थाथू और मैं", "subject_id": 127 },
+  // { "title": "चींटा", "subject_id": 127 },
+  // { "title": "टिल्लू जी", "subject_id": 127 },
+  // { "title": "तीन दोस्त", "subject_id": 127 },
+  // { "title": "दुनिया रंग-बिरंगी", "subject_id": 127 },
+  // { "title": "कौन", "subject_id": 127 },
+  // { "title": "बैंगनी जोजो", "subject_id": 127 },
+  // { "title": "तोसिया का सपना", "subject_id": 127 },
+  // { "title": "तालाब", "subject_id": 127 },
+  // { "title": "बीज", "subject_id": 127 },
+  // { "title": "किसान", "subject_id": 127 },
+  // { "title": "मूली", "subject_id": 127 },
+  // { "title": "बरसात और मेंढक", "subject_id": 127 },
+  // { "title": "शेर और चूहे की दोस्ती", "subject_id": 127 },
+  // { "title": "आउट", "subject_id": 127 },
+  // { "title": "छुपन-छुपाई", "subject_id": 127 },
+  // { "title": "हाथी साइकिल चला रहा था", "subject_id": 127 },
+  // { "title": "चार दिशाएँ", "subject_id": 127 },
+  // { "title": "चंदा मामा", "subject_id": 127 },
+  // { "title": "गिरे ताल में चंदा मामा", "subject_id": 127 },
+  // { "title": "सबसे बड़ा छाता", "subject_id": 127 },
+  // { "title": "बादल", "subject_id": 127 },
+
+  // { "title": "A Day at the Beach (Counting in Groups)", "subject_id": 128},
+  // { "title": "Shapes Around Us (3D Shapes)", "subject_id": 128},
+  // { "title": "Fun with Numbers (Numbers 1 to 100)", "subject_id": 128},
+  // { "title": "Shadow Story (Togalu) (2D Shapes)", "subject_id": 128},
+  // { "title": "Playing with Lines (Orientations of a line)", "subject_id": 128},
+  // { "title": "Decoration for Festival (Addition and Subtraction)", "subject_id": 128},
+  // { "title": "Rani’s Gift (Measurement)", "subject_id": 128},
+  // { "title": "Grouping and Sharing (Multiplication and Division)", "subject_id": 128 },
+  // { "title": "Which Season is it? (Measurement of Time)", "subject_id": 128},
+  // { "title": "Fun at the Fair (Money)", "subject_id": 128},
+  // { "title": "Data Handling", "subject_id": 128},
+
+  // { "title": "Colours", "subject_id": 132 },
+  // { "title": "Badal and Moti", "subject_id": 132 },
+  // { "title": "Best Friends", "subject_id": 132 },
+  // { "title": "Out in the Garden", "subject_id": 132 },
+  // { "title": "Talking Toys", "subject_id": 132 },
+  // { "title": "Paper Boats", "subject_id": 132 },
+  // { "title": "The Big Laddoo", "subject_id": 132 },
+  // { "title": "Thank God", "subject_id": 132 },
+  // { "title": "Madhu’s Wish", "subject_id": 132 },
+  // { "title": "Night", "subject_id": 132 },
+  // { "title": "Chanda Mama Counts the Stars", "subject_id": 132 },
+  // { "title": "Chandrayaan", "subject_id": 132 },
+
+
+  // { "title": "सीखो", "subject_id": 133 },
+  // { "title": "चींटी", "subject_id": 133 },
+  // { "title": "कितने पैर?", "subject_id": 133 },
+  // { "title": "बया हमारी चिड़िया रानी!", "subject_id": 133 },
+  // { "title": "आम का पेड़", "subject_id": 133 },
+  // { "title": "बीरबल की खिचड़ी", "subject_id": 133 },
+  // { "title": "मित्र को पत्र", "subject_id": 133 },
+  // { "title": "चतुर गीदड़", "subject_id": 133 },
+  // { "title": "प्रकृति पर्व – फूलदेई", "subject_id": 133 },
+  // { "title": "रस्साकशी", "subject_id": 133 },
+  // { "title": "एक जादुई पिटारा", "subject_id": 133 },
+  // { "title": "अपना-अपना काम", "subject_id": 133 },
+  // { "title": "पेड़ों की अम्मा 'थिमक्का'", "subject_id": 133 },
+  // { "title": "किसान की होशियारी", "subject_id": 133 },
+  // { "title": "भारत", "subject_id": 133 },
+  // { "title": "चंद्रयान (संवाद)", "subject_id": 133 },
+  // { "title": "बोलने वाली माँद", "subject_id": 133 },
+  // { "title": "हम अनेक किंतु एक", "subject_id": 133 },
+
+
+  // { "title": "What’s in a Name?", "subject_id":134 },
+  // { "title": "Toy Joy", "subject_id":134 },
+  // { "title": "Double Century", "subject_id":134 },
+  // { "title": "Vacation with My Nani Maa", "subject_id":134 },
+  // { "title": "Fun with Shapes", "subject_id":134 },
+  // { "title": "House of Hundreds – I", "subject_id":134 },
+  // { "title": "Raksha Bandhan", "subject_id":134 },
+  // { "title": "Fair Share", "subject_id":134 },
+  // { "title": "House of Hundreds – II", "subject_id":134 },
+  // { "title": "Fun at Class Party!", "subject_id":134 },
+  // { "title": "Filling and Lifting", "subject_id":134 },
+  // { "title": "Give and Take", "subject_id":134 },
+  // { "title": "Time Goes On", "subject_id":134 },
+  // { "title": "The Surajkund Fair", "subject_id":134 },
+
+  // { "title": "Family and Friends", "subject_id":135 },
+  // { "title": "Going to the Mela", "subject_id":135 },
+  // { "title": "Celebrating Festivals", "subject_id":135 },
+  // { "title": "Getting to Know Plants", "subject_id":135 },
+  // { "title": "Plants and Animals Live Together", "subject_id":135 },
+  // { "title": "Living in Harmony", "subject_id":135 },
+  // { "title": "Water – A Precious Gift", "subject_id":135 },
+  // { "title": "Food We Eat", "subject_id":135 },
+  // { "title": "Staying Healthy and Happy", "subject_id":135 },
+  // { "title": "This World of Things", "subject_id":135 },
+  // { "title": "Making Things", "subject_id":135 },
+  // { "title": "Taking Charge of Waste", "subject_id":135 },
+
+  // { "title": "Together We Can", "subject_id":139 },
+  // { "title": "The Tinkling Bells", "subject_id":139 },
+  // { "title": "Be Smart, Be Safe", "subject_id":139 },
+  // { "title": "One Thing at a Time", "subject_id":139 },
+  // { "title": "The Old Stag", "subject_id":139 },
+  // { "title": "Braille", "subject_id":139 },
+  // { "title": "Fit Body, Fit Mind, Fit Nation", "subject_id":139 },
+  // { "title": "The Lagori Champions", "subject_id":139 },
+  // { "title": "Hekko", "subject_id":139 },
+  // { "title": "The Swing", "subject_id":139 },
+  // { "title": "A Journey to the Magical Mountains", "subject_id":139 },
+  // { "title": "Maheshwar", "subject_id":139 },
+
+  // { "title": "Shapes Around Us", "subject_id":141 },
+  // { "title": "Hide and Seek", "subject_id":141 },
+  // { "title": "Pattern Around Us", "subject_id":141 },
+  // { "title": "Thousands Around Us", "subject_id":141 },
+  // { "title": "Sharing and Measuring", "subject_id":141 },
+  // { "title": "Measuring Length", "subject_id":141 },
+  // { "title": "The Cleanest Village", "subject_id":141 },
+  // { "title": "Weigh it, Pour it", "subject_id":141 },
+  // { "title": "Equal Groups", "subject_id":141 },
+  // { "title": "Elephants, Tigers, and Leopards", "subject_id":141 },
+  // { "title": "Fun with Symmetry", "subject_id":141 },
+  // { "title": "Ticking Clocks and Turning Calendar", "subject_id":141 },
+  // { "title": "The Transport Museum", "subject_id":141 },
+  // { "title": "Data Handling", "subject_id":141 },
+
+  // {
+  //   "title": "Living Together",
+  //   "subject_id": 142
+  // },
+  // {
+  //   "title": "Exploring Our Neighbourhood",
+  //   "subject_id": 142
+  // },
+  // {
+  //   "title": "Nature Trail",
+  //   "subject_id": 142
+  // },
+  // {
+  //   "title": "Growing up with Nature",
+  //   "subject_id": 142
+  // },
+  // {
+  //   "title": "Food for Health",
+  //   "subject_id": 142
+  // },
+  // {
+  //   "title": "Happy and Healthy Living",
+  //   "subject_id": 142
+  // },
+  // {
+  //   "title": "How Things Work",
+  //   "subject_id": 142
+  // },
+  // {
+  //   "title": "How Things are Made",
+  //   "subject_id": 142
+  // },
+  // {
+  //   "title": "Different Lands, Different Lives",
+  //   "subject_id": 142
+  // },
+  //  {
+  //   "title": "Our Sky",
+  //   "subject_id": 142
+  // },
+
+  // { "title": "A Bottle of Dew", "subject_id":153 },
+  // { "title": "The Raven and the Fox", "subject_id":153 },
+  // { "title": "Rama to the Rescue", "subject_id":153 },
+  // { "title": "The Unlikely Best Friends", "subject_id":153 },
+  // { "title": "A Friend’s Prayer", "subject_id":153 },
+  // { "title": "The Chair", "subject_id":153 },
+  // { "title": "Neem Baba", "subject_id":153 },
+  // { "title": "What a Bird Thought", "subject_id":153 },
+  // { "title": "Spices that Heal Us", "subject_id":153 },
+  // { "title": "Change of Heart", "subject_id":153 },
+  // { "title": "The Winner", "subject_id":153 },
+  // { "title": "Yoga—A Way of Life", "subject_id":153 },
+  // { "title": "Hamara Bharat—Incredible India!", "subject_id":153 },
+  // { "title": "The Kites", "subject_id":153 },
+  // { "title": "Ila Sachani: Embroidering Dreams with her Feet", "subject_id":153 },
+  // { "title": "National War Memorial", "subject_id":153 },
+
+  // { "title": "मातृभूमि", "subject_id":154 },
+  // { "title": "गोल", "subject_id":154 },
+  // { "title": "पहली बूँद", "subject_id":154 },
+  // { "title": "हार की जीत", "subject_id":154 },
+  // { "title": "रहीम के दोहे", "subject_id":154 },
+  // { "title": "मेरी माँ", "subject_id":154 },
+  // { "title": "जलाते चलो", "subject_id":154 },
+  // { "title": "सत्रिया और बिहू नृत्य", "subject_id":154 },
+  // { "title": "मैया मैं नहिं माखन खायो", "subject_id":154 },
+  // { "title": "परीक्षा", "subject_id":154 },
+  // { "title": "चेतक की वीरता", "subject_id":154 },
+  // { "title": "हिंद महासागर में छोटा-सा हिंदुस्तान", "subject_id":154 },
+  // { "title": "पेड़ की बात", "subject_id":154 },
+
+  // { "title": "Patterns in Mathematics", "subject_id":155 },
+  // { "title": "Lines and Angles", "subject_id":155 },
+  // { "title": "Number Play", "subject_id":155 },
+  // { "title": "Data Handling and Presentation", "subject_id":155 },
+  // { "title": "Prime Time", "subject_id":155 },
+  // { "title": "Perimeter and Area", "subject_id":155 },
+  // { "title": "Fractions", "subject_id":155 },
+  // { "title": "Playing with Constructions", "subject_id":155 },
+  // { "title": "Symmetry", "subject_id":155 },
+  // { "title": "The Other Side of Zero", "subject_id":155 },
+
+  // { "title": "Locating Places on the Earth", "subject_id":157 },
+  // { "title": "Oceans and Continents", "subject_id":157 },
+  // { "title": "Landforms and Life", "subject_id":157 },
+  // { "title": "Timeline and Sources of History", "subject_id":157 },
+  // { "title": "India, That is Bharat", "subject_id":157 },
+  // { "title": "The Beginnings of Indian Civilisation", "subject_id":157 },
+  // { "title": "India’s Cultural Roots", "subject_id":157 },
+  // { "title": "Unity in Diversity, or 'Many in the One'", "subject_id":157 },
+  // { "title": "Family and Community", "subject_id":157 },
+  // { "title": "Grassroots Democracy – Part 1: Governance", "subject_id":157 },
+  // { "title": "Grassroots Democracy – Part 2: Local Government in Rural Areas", "subject_id":157 },
+  // { "title": "Grassroots Democracy – Part 3: Local Government in Urban Areas", "subject_id":157 },
+  // { "title": "The Value of Work", "subject_id":157 },
+  // { "title": "Economic Activities Around Us", "subject_id":157 },
+
+
+  // { "title": "वयं वर्णमालां पठामः", "subject_id":158 },
+  // { "title": "एषः कः ? एषा का ? एतत् किम् ?", "subject_id":158 },
+  // { "title": "अहं च त्वं च", "subject_id":158 },
+  // { "title": "अहं प्रातः उत्तिष्ठामि", "subject_id":158 },
+  // { "title": "शूराः वयं धीराः वयम्", "subject_id":158 },
+  // { "title": "सः एव महान् चित्रकारः", "subject_id":158 },
+  // { "title": "अतिथिदेवो भव", "subject_id":158 },
+  // { "title": "बुद्धिः सर्वार्थसाधिका", "subject_id":158 },
+  // { "title": "यो जानाति सः पण्डितः", "subject_id":158 },
+  // { "title": "त्वम् आपणं गच्छ", "subject_id":158 },
+  // { "title": "पृथिव्यां त्रीणि रत्नानि", "subject_id":158 },
+  // { "title": "आलस्यं हि मनुष्याणां शरीरस्थो महान्रिपुः", "subject_id":158 },
+  // { "title": "सङ्ख्यागणना ननुसरला", "subject_id":158 },
+  // { "title": "माधवस्य प्रियम् अङ्गम्", "subject_id":158 },
+  // { "title": "वृक्षाः सत्पुरुषाः इव", "subject_id":158 },
+
+
+  // { "title": "The Wonderful World of Science", "subject_id":156 },
+  // { "title": "Diversity in the Living World", "subject_id":156 },
+  // { "title": "Mindful Eating: A Path to a Healthy Body", "subject_id":156 },
+  // { "title": "Exploring Magnets", "subject_id":156 },
+  // { "title": "Measurement of Length and Motion", "subject_id":156 },
+  // { "title": "Materials Around Us", "subject_id":156 },
+  // { "title": "Temperature and its Measurement", "subject_id":156 },
+  // { "title": "A Journey through States of Water", "subject_id":156 },
+  // { "title": "Methods of Separation in Everyday Life", "subject_id":156 },
+  // { "title": "Living Creatures: Exploring their Characteristics", "subject_id":156 },
+  // { "title": "Nature’s Treasures", "subject_id":156 },
+  // { "title": "Beyond Earth", "subject_id":156 },
+
+  // { "title": "The Day the River Spoke", "subject_id":161 },
+  // { "title": "Try Again", "subject_id":161 },
+  // { "title": "Three Days to See", "subject_id":161 },
+  // { "title": "Animals Birds and Dr Dolittle", "subject_id":161 },
+  // { "title": "A Funny Man", "subject_id":161 },
+  // { "title": "Say the Right Thing", "subject_id":161 },
+  // { "title": "My Brother’s Great Invention", "subject_id":161 },
+  // { "title": "Paper Boats", "subject_id":161 },
+  // { "title": "North South East West", "subject_id":161 },
+  // { "title": "The Tunnel", "subject_id":161 },
+  // { "title": "Travel", "subject_id":161 },
+  // { "title": "Conquering the Summit", "subject_id":161 },
+  // { "title": "A Homage to Our Brave Soldiers", "subject_id":161 },
+  // { "title": "My Dear Soldiers", "subject_id":161 },
+  // { "title": "Rani Abbakka", "subject_id":161 },
+
+  // { "title": "Large Numbers Around Us", "subject_id":163 },
+  // { "title": "Arithmetic Expressions", "subject_id":163 },
+  // { "title": "A Peek Beyond the Point", "subject_id":163 },
+  // { "title": "Expressions using Letter-Numbers", "subject_id":163 },
+  // { "title": "Parallel and Intersecting Lines", "subject_id":163 },
+  // { "title": "Number Play", "subject_id":163 },
+  // { "title": "A Tale of Three Intersecting Lines", "subject_id":163 },
+  // { "title": "Working with Fractions", "subject_id":163 },
+
+  // { "title": "माँ, कह एक कहानी", "subject_id":162 },
+  // { "title": "तीन बुद्धिमान", "subject_id":162 },
+  // { "title": "फूल और काँटा", "subject_id":162 },
+  // { "title": "पानी रे पानी", "subject_id":162 },
+  // { "title": "नहीं होना बीमार", "subject_id":162 },
+  // { "title": "गिरिधर कविराय की कुंडलिया", "subject_id":162 },
+  // { "title": "वर्षा-बहार", "subject_id":162 },
+  // { "title": "बिरजू महाराज से साक्षात्कार", "subject_id":162 },
+  // { "title": "चिड़िया", "subject_id":162 },
+  // { "title": "मीरा के पद", "subject_id":162 },
+
+  // { "title": "The Ever-Evolving World of Science", "subject_id":164 },
+  // { "title": "Exploring Substances: Acidic, Basic, and Neutral", "subject_id":164 },
+  // { "title": "Electricity: Circuits and Their Components", "subject_id":164 },
+  // { "title": "The World of Metals and Non-metals", "subject_id":164 },
+  // { "title": "Changes Around Us: Physical and Chemical", "subject_id":164 },
+  // { "title": "Adolescence: A Stage of Growth and Change", "subject_id":164 },
+  // { "title": "Heat Transfer in Nature", "subject_id":164 },
+  // { "title": "Measurement of Time and Motion", "subject_id":164 },
+  // { "title": "Life Processes in Animals", "subject_id":164 },
+  // { "title": "Life Processes in Plants", "subject_id":164 },
+  // { "title": "Light: Shadows and Reflections", "subject_id":164 },
+  // { "title": "Earth, Moon, and the Sun", "subject_id":164 },
+
+
+  // { "title": "Geographical Diversity of India", "subject_id":165 },
+  // { "title": "Understanding the Weather", "subject_id":165 },
+  // { "title": "Climates of India", "subject_id":165 },
+  // { "title": "New Beginnings: Cities and States", "subject_id":165 },
+  // { "title": "The Rise of Empires", "subject_id":165 },
+  // { "title": "The Age of Reorganisation", "subject_id":165 },
+  // { "title": "The Gupta Era: An Age of Tireless Creativity", "subject_id":165 },
+  // { "title": "How the Land Becomes Sacred", "subject_id":165 },
+  // { "title": "From the Rulers to the Ruled: Types of Governments", "subject_id":165 },
+  // { "title": "The Constitution of India — An Introduction", "subject_id":165 },
+  // { "title": "From Barter to Money", "subject_id":165 },
+  // { "title": "Understanding Markets", "subject_id":165 },
+
+  // { "title": "वन्देभारत माता", "subject_id":166 },
+  // { "title": "नित्यं पिबाम: सुभाषितरसम्", "subject_id":166 },
+  // { "title": "मित्राय नमः", "subject_id":166 },
+  // { "title": "न लभ्यते चेत् आम्लं द्राक्षाफलम्", "subject_id":166 },
+  // { "title": "सेवा हि परमो धर्म:", "subject_id":166 },
+  // { "title": "क्रीडाम् वयं श्लोकान्त्याक्षरीम्", "subject_id":166 },
+  // { "title": "ईशावास्यम् इदं सर्वम्", "subject_id":166 },
+  // { "title": "हितं मनोहारि च दुर्लभं वचः", "subject_id":166 },
+  // { "title": "अन्नाद्भवन्ति भूतानि", "subject_id":166 },
+  // { "title": "दशमः कः ?", "subject_id":166 },
+  // { "title": "द्वीपेषुरम्यः द्वीपोऽण्डमानः", "subject_id":166 },
+  // { "title": "वीराङ्गना पन्नाधाया", "subject_id":166 },
+  // { "title": "अतिरिक्‍तम् अध्‍ययनम् (वर्णमात्रा-परिचयः)", "subject_id":166 },
+  // { "title": "परिशिष्‍टम् १ (शब्दरूपाणि)", "subject_id":166 },
+  // { "title": "परिशिष्‍टम् २ (धातुरूपाणि)", "subject_id":166 },
+
+  // { "title": "The Best Christmas Present in the World", "subject_id":169 },
+  // { "title": "The Tsunami", "subject_id":169 },
+  // { "title": "Glorious The Sun", "subject_id":169 },
+  // { "title": "A Visit to Cambridge", "subject_id":169 },
+  // { "title": "Bepin Choudhury's Lapse of Memory", "subject_id":169 },
+  // { "title": "The Summit Within", "subject_id":169 },
+  // { "title": "This Magical Place", "subject_id":169 },
+  // { "title": "A Short Monsoon Diary", "subject_id":169 },
+  // { "title": "The Great Stone Face - I", "subject_id":169 },
+  // { "title": "The Great Stone Face - II", "subject_id":169 },
+
+  // { "title": "Rational Numbers", "subject_id":171 },
+  // { "title": "Linear Equations in One Variable", "subject_id":171 },
+  // { "title": "Understanding Quadrilaterals", "subject_id":171 },
+  // { "title": "Practical Geometry", "subject_id":171 },
+  // { "title": "Data Handling", "subject_id":171 },
+  // { "title": "Squares and Square Roots", "subject_id":171 },
+  // { "title": "Cubes and Cube Roots", "subject_id":171 },
+  // { "title": "Comparing Quantities", "subject_id":171 },
+  // { "title": "Algebraic Expressions and Identities", "subject_id":171 },
+  // { "title": "Visualising Solid Shapes", "subject_id":171 },
+  // { "title": "Mensuration", "subject_id":171 },
+  // { "title": "Exponents and Powers", "subject_id":171 },
+  // { "title": "Direct and Inverse Proportions", "subject_id":171 },
+  // { "title": "Factorisation", "subject_id":171 },
+  // { "title": "Introduction to Graphs", "subject_id":171 },
+
+  // { "title": "खेल और खिलौने", "subject_id":170 },
+  // { "title": "नीड़", "subject_id":170 },
+  // { "title": "अच्छा होता", "subject_id":170 },
+  // { "title": "वो मेरी मित्र है", "subject_id":170 },
+  // { "title": "बादल", "subject_id":170 },
+  // { "title": "व्याकरण- भाषा की चौखट पर", "subject_id":170 },
+  // { "title": "हवा की परी", "subject_id":170 },
+  // { "title": "विषय प्रवाह", "subject_id":170 },
+  // { "title": "बहुत चतुर लड़का", "subject_id":170 },
+  // { "title": "पंचतंत्र से कहानियाँ", "subject_id":170 },
+  // { "title": "शब्द ज्ञान", "subject_id":170 },
+
+  // { "title": "Crop Production and Management", "subject_id":172 },
+  // { "title": "Microorganisms: Friend and Foe", "subject_id":172 },
+  // { "title": "Synthetic Fibres and Plastics", "subject_id":172 },
+  // { "title": "Materials: Metals and Non-metals", "subject_id":172 },
+  // { "title": "Coal and Petroleum", "subject_id":172 },
+  // { "title": "Combustion and Flame", "subject_id":172 },
+  // { "title": "Conservation of Plants and Animals", "subject_id":172 },
+  // { "title": "Cell - Structure and Functions", "subject_id":172 },
+  // { "title": "Reproduction in Animals", "subject_id":172 },
+  // { "title": "Force and Pressure", "subject_id":172 },
+  // { "title": "Friction", "subject_id":172 },
+  // { "title": "Sound", "subject_id":172 },
+  // { "title": "Chemical Effects of Electric Current", "subject_id":172 },
+  // { "title": "Some Natural Phenomena", "subject_id":172 },
+  // { "title": "Light", "subject_id":172 },
+  // { "title": "Stars and the Solar System", "subject_id":172 },
+  // { "title": "Pollution of Air and Water", "subject_id":172 },
+
+  // { "title": "Resources", "subject_id":173 },
+  // { "title": "The Earth", "subject_id":173 },
+  // { "title": "The Atmosphere", "subject_id":173 },
+  // { "title": "The Monsoons", "subject_id":173 },
+  // { "title": "Life in the Deserts", "subject_id":173 },
+  // { "title": "Life in the Temperate Grasslands", "subject_id":173 },
+  // { "title": "Life in the Tropical Rainforests", "subject_id":173 },
+  // { "title": "Life in the Mountains", "subject_id":173 },
+  // { "title": "Natural Vegetation and Wildlife", "subject_id":173 },
+  // { "title": "Human Activities and the Environment", "subject_id":173 },
+  // { "title": "The Medieval World", "subject_id":173 },
+  // { "title": "The Mughal Empire", "subject_id":173 },
+  // { "title": "Medieval Society and Culture", "subject_id":173 },
+  // { "title": "The Modern Age", "subject_id":173 },
+  // { "title": "The Industrial Revolution", "subject_id":173 },
+  // { "title": "The Struggle for Freedom", "subject_id":173 },
+
+  // { "title": "विद्या सर्वभूषणम्", "subject_id":174 },
+  // { "title": "मित्रं परमं भजन्ति", "subject_id":174 },
+  // { "title": "शुभारंभः", "subject_id":174 },
+  // { "title": "प्रकृतिः पवित्रा", "subject_id":174 },
+  // { "title": "धैर्यं महत्त्वम्", "subject_id":174 },
+  // { "title": "कर्मण्येवाधिकारः", "subject_id":174 },
+  // { "title": "विज्ञानस्य महत्त्वम्", "subject_id":174 },
+  // { "title": "सत्यं ब्रूयात् प्रियं ब्रूयात्", "subject_id":174 },
+  // { "title": "प्रकृतिः सहायकः", "subject_id":174 },
+  // { "title": "विविधा जनानां संस्कृतिः", "subject_id":174 },
+  // { "title": "पुस्तकालयम्", "subject_id":174 },
+
+  { "title": "Beehive - Chapter 1: The Fun They Had", "subject_id":190 },
+  { "title": "Beehive - Chapter 2: The Sound of Music", "subject_id":190 },
+  { "title": "Beehive - Chapter 3: The Little Girl", "subject_id":190 },
+  { "title": "Beehive - Chapter 4: A Truly Beautiful Mind", "subject_id":190 },
+  { "title": "Beehive - Chapter 5: The Snake and the Mirror", "subject_id":190 },
+  { "title": "Beehive - Chapter 6: My Childhood", "subject_id":190 },
+  { "title": "Beehive - Chapter 7: Reach for the Top", "subject_id":190 },
+  { "title": "Beehive - Chapter 8: Kathmandu", "subject_id":190 },
+  { "title": "Beehive - Chapter 9: If I Were You", "subject_id":190 },
+  { "title": "Beehive - Poem 1: The Road Not Taken", "subject_id":190 },
+  { "title": "Beehive - Poem 2: Wind", "subject_id":190 },
+  { "title": "Beehive - Poem 3: Rain on the Roof", "subject_id":190 },
+  { "title": "Beehive - Poem 4: The Lake Isle of Innisfree", "subject_id":190 },
+  { "title": "Beehive - Poem 5: A Legend of the Northland", "subject_id":190 },
+  { "title": "Beehive - Poem 6: No Men Are Foreign", "subject_id":190 },
+  { "title": "Beehive - Poem 7: On Killing a Tree", "subject_id":190 },
+  { "title": "Beehive - Poem 8: A Slumber Did My Spirit Seal", "subject_id":190 },
+  { "title": "Moments - Chapter 1: The Lost Child", "subject_id":190 },
+  { "title": "Moments - Chapter 2: The Adventures of Toto", "subject_id":190 },
+  { "title": "Moments - Chapter 3: Iswaran the Storyteller", "subject_id":190 },
+  { "title": "Moments - Chapter 4: In the Kingdom of Fools", "subject_id":190 },
+  { "title": "Moments - Chapter 5: The Happy Prince", "subject_id":190 },
+  { "title": "Moments - Chapter 6: Weathering the Storm in Ersama", "subject_id":190 },
+  { "title": "Moments - Chapter 7: The Last Leaf", "subject_id":190 },
+  { "title": "Moments - Chapter 8: A House Is Not a Home", "subject_id":190 },
+  { "title": "Moments - Chapter 9: The Beggar", "subject_id":190 },
+  { "title": "Kshitij - Chapter 1: दो बैलों की कथा", "subject_id":191 },
+  { "title": "Kshitij - Chapter 2: ल्हासा की ओर", "subject_id":191 },
+  { "title": "Kshitij - Chapter 3: उपभोक्तावाद की संस्कृति", "subject_id":191 },
+  { "title": "Kshitij - Chapter 4: साँवले सपनों की याद", "subject_id":191 },
+  { "title": "Kshitij - Chapter 5: प्रेमचंद के फटे जूते", "subject_id":191 },
+  { "title": "Kshitij - Chapter 6: मेरे बचपन के दिन", "subject_id":191 },
+  { "title": "Kshitij - Chapter 7: कबीर", "subject_id":191 },
+  { "title": "Kshitij - Chapter 8: वाख", "subject_id":191 },
+  { "title": "Kshitij - Chapter 9: सवैये", "subject_id":191 },
+  { "title": "Kshitij - Chapter 10: कैदी और कोकिला", "subject_id":191 },
+  { "title": "Kshitij - Chapter 11: ग्राम श्री", "subject_id":191 },
+  { "title": "Kshitij - Chapter 12: मेघ आए", "subject_id":191 },
+  { "title": "Kshitij - Chapter 13: बच्चे काम पर जा रहे हैं", "subject_id":191 },
+  { "title": "Sparsh - Chapter 1: धूल", "subject_id":191 },
+  { "title": "Sparsh - Chapter 2: दुःख का अधिकार", "subject_id":191 },
+  { "title": "Sparsh - Chapter 3: एवेरेस्ट: मेरी शिखर यात्रा", "subject_id":191 },
+  { "title": "Sparsh - Chapter 4: तुम कब जाओगे अतिथि", "subject_id":191 },
+  { "title": "Sparsh - Chapter 5: वैज्ञानिक चेतना के वाहक चंद्रशेखर वेंकट रमन", "subject_id":191 },
+  { "title": "Sparsh - Chapter 6: कीचड़ का काव्य", "subject_id":191 },
+  { "title": "Sparsh - Chapter 7: धरम की आड़", "subject_id":191 },
+  { "title": "Sparsh - Chapter 8: शुक्रतारे के समान", "subject_id":191 },
+  { "title": "Sparsh - Chapter 9: पद", "subject_id":191 },
+  { "title": "Sparsh - Chapter 10: दोहे", "subject_id":191 },
+  { "title": "Sparsh - Chapter 11: आदमीनामा", "subject_id":191 },
+  { "title": "Sparsh - Chapter 12: एक फूल की चाह", "subject_id":191 },
+  { "title": "Sparsh - Chapter 13: गीत अगीत", "subject_id":191 },
+  { "title": "Sparsh - Chapter 14: अग्नि पथ", "subject_id":191 },
+  { "title": "Sparsh - Chapter 15: नए इलाके में – खुशबु रचते हैं हाथ", "subject_id":191 },
+  { "title": "Kritika - Chapter 1: इस जल प्रलय में", "subject_id":191 },
+  { "title": "Kritika - Chapter 2: मेरे संग की औरतें", "subject_id":191 },
+  { "title": "Kritika - Chapter 3: रीढ़ की हड्डी", "subject_id":191 },
+  { "title": "Sanchayan - Chapter 1: गिल्लू", "subject_id":191 },
+  { "title": "Sanchayan - Chapter 2: स्मृति", "subject_id":191 },
+  { "title": "Sanchayan - Chapter 3: कल्लू कुम्हार की उंनकोटि", "subject_id":191 },
+  { "title": "Sanchayan - Chapter 4: मेरा छोटा सा निजी पुस्तकालय", "subject_id":191 },
+  { "title": "Sanchayan - Chapter 5: हामिद खान", "subject_id":191 },
+  { "title": "Sanchayan - Chapter 6: दिए जल उठे", "subject_id":191 },
+  { "title": "Shemushi - Chapter 1: वर्ण विचार", "subject_id":191},
+  { "title": "Shemushi - Chapter 2: संज्ञा एवं परिभाषा प्रकरण", "subject_id":191 },
+  { "title": "Shemushi - Chapter 3: सन्धि", "subject_id":191 },
+  { "title": "Shemushi - Chapter 4: शब्दरूप – सामान्य परिचय", "subject_id":191 },
+  { "title": "Shemushi - Chapter 5: धातुरूप – सामान्य परिचय", "subject_id":191 },
+  { "title": "Shemushi - Chapter 6: उपसर्ग", "subject_id":191 },
+  { "title": "Shemushi - Chapter 7: अव्यय", "subject_id":191 },
+  { "title": "Shemushi - Chapter 8: प्रत्यय", "subject_id":191 },
+  { "title": "Shemushi - Chapter 9: समास परिचय", "subject_id":191 },
+  { "title": "Shemushi - Chapter 10: कारक और विभक्ति", "subject_id":191 },
+  { "title": "Shemushi - Chapter 11: वाच्य परिवर्तन", "subject_id":191 },
+  { "title": "Shemushi - Chapter 12: रचना प्रयोग", "subject_id":191 },
+  { "title": "Vyakaranavithi - Chapter 1: वर्ण विचार", "subject_id":191 },
+  { "title": "Vyakaranavithi - Chapter 2: संज्ञा एवं परिभाषा प्रकरण", "subject_id":191 },
+  { "title": "Vyakaranavithi - Chapter 3: सन्धि", "subject_id":191 },
+  { "title": "Vyakaranavithi - Chapter 4: शब्दरूप – सामान्य परिचय", "subject_id":191 },
+  { "title": "Vyakaranavithi - Chapter 5: धातुरूप – सामान्य परिचय", "subject_id":191 },
+  { "title": "Vyakaranavithi - Chapter 6: उपसर्ग", "subject_id":191 },
+  { "title": "Vyakaranavithi - Chapter 7: अव्यय", "subject_id":191 },
+  { "title": "Vyakaranavithi - Chapter 8: प्रत्यय", "subject_id":191 },
+  { "title": "Vyakaranavithi - Chapter 9: समास परिचय", "subject_id":191},
+  { "title": "Vyakaranavithi - Chapter 10: कारक और विभक्ति", "subject_id":191 },
+  { "title": "Vyakaranavithi - Chapter 11: वाच्य परिवर्तन", "subject_id":191 },
+  { "title": "Vyakaranavithi - Chapter 12: रचना प्रयोग", "subject_id":191 },
+  { "title": "Vyakaranavithi - Chapter 13: शब्दरूपाणि", "subject_id":191 },
+  { "title": "Vyakaranavithi - Chapter 14: धातुरूपाणि", "subject_id":191 },
+  {
+    "title": "Contemporary India – 1 - Chapter 1: India – Size and Location",
+    "subject_id":197
+  },
+  {
+    "title": "Contemporary India – 1 - Chapter 2: Physical Features of India",
+    "subject_id":197
+  },
+  {
+    "title": "Contemporary India – 1 - Chapter 3: Drainage",
+    "subject_id":197
+  },
+  {
+    "title": "Contemporary India – 1 - Chapter 4: Climate",
+    "subject_id":197
+  },
+  {
+    "title": "Contemporary India – 1 - Chapter 5: Natural Vegetation and Wildlife",
+    "subject_id":197
+  },
+  {
+    "title": "Contemporary India – 1 - Chapter 6: Population",
+    "subject_id":197
+  },
+  {
+    "title": "Democratic Politics – I - Chapter 1: What Is Democracy? Why Democracy?",
+    "subject_id":196
+  },
+  {
+    "title": "Democratic Politics – I - Chapter 2: Constitutional Design",
+    "subject_id":196
+  },
+  {
+    "title": "Democratic Politics – I - Chapter 3: Electoral Politics",
+    "subject_id":196
+  },
+  {
+    "title": "Democratic Politics – I - Chapter 4: Working of Institutions",
+    "subject_id":196
+  },
+  {
+    "title": "Democratic Politics – I - Chapter 5: Democratic Rights",
+    "subject_id":196
+  },
+  {
+    "title": "Economics - Chapter 1: The Story of Village Palampur",
+    "subject_id":199
+  },
+  {
+    "title": "Economics - Chapter 2: People as Resource",
+    "subject_id":199
+  },
+  {
+    "title": "Economics - Chapter 3: Poverty as a Challenge",
+    "subject_id":199
+  },
+  {
+    "title": "Economics - Chapter 4: Food Security in India",
+    "subject_id":199
+  },
+  {
+    "title": "India and the Contemporary World – I - Chapter 1: The French Revolution",
+    "subject_id":196
+  },
+  {
+    "title": "India and the Contemporary World – I - Chapter 2: Socialism in Europe and the Russian Revolution",
+    "subject_id":196
+  },
+  {
+    "title": "India and the Contemporary World – I - Chapter 3: Nazism and the Rise of Hitler",
+    "subject_id":196
+  },
+  {
+    "title": "India and the Contemporary World – I - Chapter 4: Forest Society and Colonialism",
+    "subject_id":196
+  },
+  {
+    "title": "India and the Contemporary World – I - Chapter 5: Pastoralists in the Modern World",
+    "subject_id":196
+  },
+
+  {
+    "title": "Chapter 1: Matter in Our Surroundings",
+    "subject_id":194
+  },
+  {
+    "title": "Chapter 2: Is Matter Around Us Pure?",
+    "subject_id":194
+  },
+  {
+    "title": "Chapter 3: Atoms and Molecules",
+    "subject_id":194
+  },
+  {
+    "title": "Chapter 4: Structure of the Atom",
+    "subject_id":194
+  },
+  {
+    "title": "Chapter 5: The Fundamental Unit of Life",
+    "subject_id":195
+  },
+  {
+    "title": "Chapter 6: Tissues",
+    "subject_id":195
+  },
+  {
+    "title": "Chapter 7: Motion",
+    "subject_id":193
+  },
+  {
+    "title": "Chapter 8: Force and Laws of Motion",
+    "subject_id":193
+  },
+  {
+    "title": "Chapter 9: Gravitation",
+    "subject_id":193
+  },
+  {
+    "title": "Chapter 10: Work and Energy",
+    "subject_id":193
+  },
+  {
+    "title": "Chapter 11: Sound",
+    "subject_id":193
+  },
+  {
+    "title": "Chapter 12: Improvement in Food Resources",
+    "subject_id":195
+  },
+
+  {
+    "title": "Chapter 1: Number Systems",
+    "subject_id": 192
+  },
+  {
+    "title": "Chapter 2: Polynomials",
+    "subject_id": 192
+  },
+  {
+    "title": "Chapter 3: Coordinate Geometry",
+    "subject_id": 192
+  },
+  {
+    "title": "Chapter 4: Linear Equations in Two Variables",
+    "subject_id": 192
+  },
+  {
+    "title": "Chapter 5: Introduction to Euclid’s Geometry",
+    "subject_id": 192
+  },
+  {
+    "title": "Chapter 6: Lines and Angles",
+    "subject_id": 192
+  },
+  {
+    "title": "Chapter 7: Triangles",
+    "subject_id": 192
+  },
+  {
+    "title": "Chapter 8: Quadrilaterals",
+    "subject_id": 192
+  },
+  {
+    "title": "Chapter 9: Circles",
+    "subject_id": 192
+  },
+  {
+    "title": "Chapter 10: Heron’s Formula",
+    "subject_id": 192
+  },
+  {
+    "title": "Chapter 11: Surface Areas and Volumes",
+    "subject_id": 192
+  },
+  {
+    "title": "Chapter 12: Statistics",
+    "subject_id": 192
+  },
+
+  {
+    "title": "Chapter 1: Introduction to ICT",
+    "subject_id": 198
+  },
+  {
+    "title": "Chapter 2: Creating Textual Communication",
+    "subject_id": 198
+  },
+  {
+    "title": "Chapter 3: Creating Visual Communication",
+    "subject_id": 198
+  },
+  {
+    "title": "Chapter 4: Creating Audio-Video Communication",
+    "subject_id": 198
+  },
+  {
+    "title": "Chapter 5: Presenting Ideas",
+    "subject_id": 198
+  },
+  {
+    "title": "Chapter 6: Getting Connected: Internet",
+    "subject_id": 198
+  },
+  {
+    "title": "Chapter 7: Safety and Security in the Cyber World",
+    "subject_id": 198
+  },
+  {
+    "title": "Chapter 8: Fun with Logic",
+    "subject_id": 198
+  }
+
+
+  // { "title": "First Flight - Chapter 1: A Letter to God", "subject_id": 177 },
+  // { "title": "First Flight - Chapter 2: Nelson Mandela: Long Walk to Freedom", "subject_id": 177 },
+  // { "title": "First Flight - Chapter 3: Two Stories About Flying", "subject_id": 177 },
+  // { "title": "First Flight - Chapter 4: From the Diary of Anne Frank", "subject_id": 177 },
+  // { "title": "First Flight - Chapter 5: The Hundred Dresses - I", "subject_id": 177 },
+  // { "title": "First Flight - Chapter 6: The Hundred Dresses - II", "subject_id": 177 },
+  // { "title": "First Flight - Chapter 7: Glimpses of India", "subject_id": 177 },
+  // { "title": "First Flight - Poem 1: Dust of Snow", "subject_id": 177 },
+  // { "title": "First Flight - Poem 2: Fire and Ice", "subject_id": 177 },
+  // { "title": "First Flight - Poem 3: A Tiger in the Zoo", "subject_id": 177 },
+  // { "title": "First Flight - Poem 4: How to Tell Wild Animals", "subject_id": 177 },
+  // { "title": "First Flight - Poem 5: The Ball Poem", "subject_id": 177 },
+  // { "title": "First Flight - Poem 6: Amanda", "subject_id": 177 },
+  // { "title": "First Flight - Poem 7: Animals", "subject_id": 177 },
+  // { "title": "First Flight - Poem 8: The Trees", "subject_id": 177 },
+  // { "title": "First Flight - Poem 9: Fog", "subject_id": 177 },
+  // { "title": "Footprints without Feet - Chapter 1: A Triumph of Surgery", "subject_id": 177 },
+  // { "title": "Footprints without Feet - Chapter 2: The Thief's Story", "subject_id": 177 },
+  // { "title": "Footprints without Feet - Chapter 3: The Midnight Visitor", "subject_id": 177 },
+  // { "title": "Footprints without Feet - Chapter 4: A Question of Trust", "subject_id": 177 },
+  // { "title": "Footprints without Feet - Chapter 5: Footprints Without Feet", "subject_id": 177 },
+  // { "title": "Footprints without Feet - Poem 1: The Making of a Scientist", "subject_id": 177 },
+  // { "title": "Footprints without Feet - Poem 2: The Necklace", "subject_id": 177 },
+  // { "title": "Footprints without Feet - Poem 3: The Hack Driver", "subject_id": 177 },
+  // { "title": "Footprints without Feet - Poem 4: Bholi", "subject_id": 177 },
+  // { "title": "Footprints without Feet - Poem 5: The Book That Saved the Earth", "subject_id": 177 },
+
+  // {"title": "क्षितिज-2 - सूरदास – पद", "subject_id": 178},
+  // {"title": "क्षितिज-2 - तुलसीदास – राम-लक्ष्मण-परशुराम संवाद", "subject_id": 178},
+  // {"title": "क्षितिज-2 - जयशंकर प्रसाद – आत्मकथ्य", "subject_id": 178},
+  // {"title": "क्षितिज-2 - सूर्यकांत त्रिपाठी 'निराला' – उत्साह, अट नहीं रही", "subject_id": 178},
+  // {"title": "क्षितिज-2 - नागार्जुन – यह दंतुरहित मुस्कान, फसल", "subject_id": 178},
+  // {"title": "क्षितिज-2 - गिरिजा कुमार माथुर – छाया मत छूना", "subject_id": 178},
+  // {"title": "क्षितिज-2 - मंगलेश डबराल – संगतकार", "subject_id": 178},
+  // {"title": "क्षितिज-2 - स्वयं प्रकाश – नेताजी का चश्मा", "subject_id": 178},
+  // {"title": "क्षितिज-2 - रामवृक्ष बेनीपुरी – बालगोबिन भगत", "subject_id": 178},
+  // {"title": "क्षितिज-2 - यशपाल – लखनवी अंदाज", "subject_id": 178},
+  // {"title": "क्षितिज-2 - सर्वेश्वर दयाल सक्सेना – मानवीय करुणा की दिव्य चमक", "subject_id": 178},
+  // {"title": "क्षितिज-2 - मन्नू भंडारी – एक कहानी यह भी", "subject_id": 178},
+  // {"title": "क्षितिज-2 - महावीर प्रसाद द्विवेदी – स्त्री शिक्षा के विरोधी कुतर्कों का खंडन", "subject_id": 178},
+  // {"title": "क्षितिज-2 - यतीन्द्र मिश्र – नौबतखाने में इबादत", "subject_id": 178},
+  // {"title": "क्षितिज-2 - भदंत आनंद कौसल्यायन – संस्कृति", "subject_id": 178},
+
+  // {"title": "स्पर्श - कबीर – साखी", "subject_id": 178},
+  // {"title": "स्पर्श - मीरा – पद", "subject_id": 178},
+  // {"title": "स्पर्श - बिहारी – दोहे", "subject_id": 178},
+  // {"title": "स्पर्श - मैथिलीशरण गुप्त – मानुषीता", "subject_id": 178},
+  // {"title": "स्पर्श - सुमित्रानंदन पंत – पर्वत प्रदेश के पावस", "subject_id": 178},
+  // {"title": "स्पर्श - महादेवी वर्मा – मधुर-मधुर मेरे दीपक जल", "subject_id": 178},
+  // {"title": "स्पर्श - वीरेन डंगवाल – तोप", "subject_id": 178},
+  // {"title": "स्पर्श - कैफ़ी आज़मी – कर चले हम फ़िदा", "subject_id": 178},
+  // {"title": "स्पर्श - रवींद्रनाथ ठाकुर – आत्मत्राण", "subject_id": 178},
+  // {"title": "स्पर्श - प्रेमचंद – बड़े भाई साहब", "subject_id": 178},
+  // {"title": "स्पर्श - सीताराम सेकसरिया – डायरी का एक पन्ना", "subject_id": 178},
+  // {"title": "स्पर्श - तताँरा वामीरो कथा", "subject_id": 178},
+  // {"title": "स्पर्श - प्रह्लाद अग्रवाल – तीसरी कसम के शिल्पकार शैलेंद्र", "subject_id": 178},
+  // {"title": "स्पर्श - अंतोन चेखव – गिरगिट", "subject_id": 178},
+  // {"title": "स्पर्श - निदा फाजली – अब कहाँ दूसरे के दुख से दुखी होने वाले", "subject_id": 178},
+  // {"title": "स्पर्श - रवीन्द्र केलेकर – पतझर में टूटी पत्तियाँ", "subject_id": 178},
+  // {"title": "स्पर्श - हबीब तनवीर – कारतूस", "subject_id": 178},
+  // {"title": "कृतिका - माता का आँचल", "subject_id": 178},
+  // {"title": "कृतिका - साना-साना हाथ जोड़ि", "subject_id": 178},
+  // {"title": "कृतिका - मैं क्यों लिखता हूँ?", "subject_id": 178},
+  // {"title": "संचयन-2 - हरिहर काका – मिथिलेश्वर", "subject_id": 178},
+  // {"title": "संचयन-2 - सपनों के-से दिन – गुरदयाल सिंह", "subject_id": 178},
+  // {"title": "संचयन-2 - टोपी शुक्ला – राही मासूम रज़ा", "subject_id": 178},
+
+
+  // { "title": "Chapter-1: Real Numbers", "subject_id": 201 },
+  // { "title": "Chapter-2: Polynomials", "subject_id": 201 },
+  // { "title": "Chapter-3: Pair of Linear Equations in Two Variables", "subject_id": 201 },
+  // { "title": "Chapter-4: Quadratic Equations", "subject_id": 201 },
+  // { "title": "Chapter-5: Arithmetic Progressions", "subject_id": 201 },
+  // { "title": "Chapter-6: Triangles", "subject_id": 201 },
+  // { "title": "Chapter-7: Coordinate Geometry", "subject_id": 201 },
+  // { "title": "Chapter-8: Introduction to Trigonometry", "subject_id": 201 },
+  // { "title": "Chapter-9: Some Applications of Trigonometry", "subject_id": 201 },
+  // { "title": "Chapter-10: Circles", "subject_id": 201 },
+  // { "title": "Chapter-11: Areas Related to Circles", "subject_id": 201 },
+  // { "title": "Chapter-12: Surface Areas and Volumes", "subject_id": 201 },
+  // { "title": "Chapter-13: Statistics", "subject_id": 201 },
+  // { "title": "Chapter-14: Probability", "subject_id": 201 },
+
+  // { "title": "Chapter-1: Chemical Reactions and Equations", "subject_id": 202 },
+  // { "title": "Chapter-2: Acids, Bases and Salts", "subject_id": 202 },
+  // { "title": "Chapter-3: Metals and Non-metals", "subject_id": 202 },
+  // { "title": "Chapter-4: Carbon and its Compounds", "subject_id": 202 },
+  // { "title": "Chapter-5: Life Processes", "subject_id": 202 },
+  // { "title": "Chapter-6: Control and Coordination", "subject_id": 202 },
+  // { "title": "Chapter-7: How do Organisms Reproduce?", "subject_id": 202 },
+  // { "title": "Chapter-8: Heredity", "subject_id": 202 },
+  // { "title": "Chapter-9: Light – Reflection and Refraction", "subject_id": 202 },
+  // { "title": "Chapter-10: The Human Eye and the Colourful World", "subject_id": 202 },
+  // { "title": "Chapter-11: Electricity", "subject_id": 202 },
+  // { "title": "Chapter-12: Magnetic Effects of Electric Current", "subject_id": 202 },
+  // { "title": "Chapter-13: Our Environment", "subject_id": 202 },
+
+  // { "title": "Chapter-1: The Rise of Nationalism in Europe", "subject_id": 203 },
+  // { "title": "Chapter-2: Nationalism in India", "subject_id": 203 },
+  // { "title": "Chapter-3: The Making of a Global World", "subject_id": 203 },
+  // { "title": "Chapter-4: The Age of Industrialisation", "subject_id": 203 },
+  // { "title": "Chapter-5: Print Culture and the Modern World", "subject_id": 203 },
+
+  // { "title": "Chapter-1: Resources and Development", "subject_id": 203 },
+  // { "title": "Chapter-2: Forest and Wildlife Resources", "subject_id": 203 },
+  // { "title": "Chapter-3: Water Resources", "subject_id": 203 },
+  // { "title": "Chapter-4: Agriculture", "subject_id": 203 },
+  // { "title": "Chapter-5: Mineral and Energy Resources", "subject_id": 203 },
+  // { "title": "Chapter-6: Manufacturing Industries", "subject_id": 203 },
+  // { "title": "Chapter-7: Lifelines of National Economy", "subject_id": 203 },
+
+  // { "title": "Chapter-1: Power Sharing", "subject_id": 203 },
+  // { "title": "Chapter-2: Federalism", "subject_id": 203 },
+  // { "title": "Chapter-3: Democracy and Diversity", "subject_id": 203 },
+  // { "title": "Chapter-4: Gender, Religion and Caste", "subject_id": 203 },
+  // { "title": "Chapter-5: Popular Struggles and Movements", "subject_id": 203 },
+  // { "title": "Chapter-6: Political Parties", "subject_id": 203 },
+  // { "title": "Chapter-7: Outcomes of Democracy", "subject_id": 203 },
+  // { "title": "Chapter-8: Challenges to Democracy", "subject_id": 203 },
+
+  // { "title": "Chapter-1: Development", "subject_id": 203 },
+  // { "title": "Chapter-2: Sectors of the Indian Economy", "subject_id": 203 },
+  // { "title": "Chapter-3: Money and Credit", "subject_id": 203 },
+  // { "title": "Chapter-4: Globalisation and the Indian Economy", "subject_id": 203 },
+  // { "title": "Chapter-5: Consumer Rights", "subject_id": 203 },
+
+  // { "title": "अध्याय-1: शेमुशी - शुचिपर्यावरणम्", "subject_id": 204 },
+  // { "title": "अध्याय-2: शेमुशी - बुद्धिबलवती सदा", "subject_id": 204 },
+  // { "title": "अध्याय-3: शेमुशी - शिशुलालनम्", "subject_id": 204 },
+  // { "title": "अध्याय-4: शेमुशी - जननी तुल्यवत्सला", "subject_id": 204 },
+  // { "title": "अध्याय-5: शेमुशी - सुबाषितानि", "subject_id": 204 },
+  // { "title": "अध्याय-6: शेमुशी - सौहार्दं प्रकृतेः शोभा", "subject_id": 204 },
+  // { "title": "अध्याय-7: शेमुशी - विचित्रः साक्षी", "subject_id": 204 },
+  // { "title": "अध्याय-8: शेमुशी - सूक्तयः", "subject_id": 204 },
+  // { "title": "अध्याय-9: शेमुशी - भूकम्पविभीषिका", "subject_id": 204 },
+  // { "title": "अध्याय-10: शेमुशी - अन्योक्तयः", "subject_id": 204 },
+
+  // {"title": "अध्‍याय-1: व्याकरणवीथिः - वर्णविचारः", "subject_id": 204},
+  // {"title": "अध्‍याय-2: व्याकरणवीथिः - संज्ञा एवं परिभाषा प्रकरण", "subject_id": 204},
+  // {"title": "अध्‍याय-3: व्याकरणवीथिः - सन्धिः", "subject_id": 204},
+  // {"title": "अध्‍याय-4: व्याकरणवीथिः - शब्‍दरूप सामान्‍य परिचय", "subject_id": 204},
+  // {"title": "अध्‍याय-5: व्याकरणवीथिः - धातुरूप सामान्‍य परिचय", "subject_id": 204},
+  // {"title": "अध्‍याय-6: व्याकरणवीथिः - उपसर्गः", "subject_id": 204},
+  // {"title": "अध्‍याय-7: व्याकरणवीथिः - अव्‍ययः", "subject_id": 204},
+  // {"title": "अध्‍याय-8: व्याकरणवीथिः - प्रत्ययः", "subject_id": 204},
+  // {"title": "अध्‍याय-9: व्याकरणवीथिः - समासपरिचयः", "subject_id": 204},
+  // {"title": "अध्‍याय-10: व्याकरणवीथिः - कारकं विभक्ति च", "subject_id": 204},
+  // {"title": "अध्‍याय-11: व्याकरणवीथिः - वाच्यपरिवर्तनम्", "subject_id": 204},
+  // {"title": "अध्‍याय-12: व्याकरणवीथिः - रचनाप्रयोगः", "subject_id": 204},
+
+
+  // { "title": "अध्याय-1: अभ्यासवान्भवः II - अपठितावबोधनम्", "subject_id": 204 },
+  // { "title": "अध्याय-2: अभ्यासवान्भवः II - पत्रलेखनम्", "subject_id": 204 },
+  // { "title": "अध्याय-3: अभ्यासवान्भवः II - अनुच्छेदलेखनम्", "subject_id": 204 },
+  // { "title": "अध्याय-4: अभ्यासवान्भवः II - चित्रवर्णनम्", "subject_id": 204 },
+  // { "title": "अध्याय-5: अभ्यासवान्भवः II - रचनानुवादः", "subject_id": 204 },
+  // { "title": "अध्याय-6: अभ्यासवान्भवः II - सन्धिः", "subject_id": 204 },
+  // { "title": "अध्याय-7: अभ्यासवान्भवः II - समासाः", "subject_id": 204 },
+  // { "title": "अध्याय-8: अभ्यासवान्भवः II - प्रत्ययाः", "subject_id": 204 },
+  // { "title": "अध्याय-9: अभ्यासवान्भवः II - अव्ययानि", "subject_id": 204 },
+  // { "title": "अध्याय-10: अभ्यासवान्भवः II - समयः", "subject_id": 204 },
+  // { "title": "अध्याय-11: अभ्यासवान्भवः II - वाच्यम्", "subject_id": 204 },
+  // { "title": "अध्याय-12: अभ्यासवान्भवः II - अशुद्धिसंशोधनम्", "subject_id": 204 },
+  // { "title": "अध्याय-13: अभ्यासवान्भवः II - मिश्रिताभ्यासः", "subject_id": 204 },
+  // { "title": "अध्याय-14: अभ्यासवान्भवः II - आदर्शप्रश्नपत्रम्", "subject_id": 204 },
+
+  // {"title": "Chapter-1: Units and Measurements", "subject_id": 164},
+  // {"title": "Chapter-2: Motion in a Straight Line", "subject_id": 164},
+  // {"title": "Chapter-3: Motion in a Plane", "subject_id": 164},
+  // {"title": "Chapter-4: Laws of Motion", "subject_id": 164},
+  // {"title": "Chapter-5: Work, Energy and Power", "subject_id": 164},
+  // {"title": "Chapter-6: System of Particles and Rotational Motion", "subject_id": 164},
+  // {"title": "Chapter-7: Gravitation", "subject_id": 164},
+  // {"title": "Chapter-8: Mechanical Properties of Solids", "subject_id": 164},
+  // {"title": "Chapter-9: Mechanical Properties of Fluids", "subject_id": 164},
+  // {"title": "Chapter-10: Thermal Properties of Matter", "subject_id": 164},
+  // {"title": "Chapter-11: Thermodynamics", "subject_id": 164},
+  // {"title": "Chapter-12: Kinetic Theory", "subject_id": 164},
+  // {"title": "Chapter-13: Oscillations", "subject_id": 164},
+  // {"title": "Chapter-14: Waves", "subject_id": 164},
+
+  // {"title": "Chapter-1: Some Basic Concepts of Chemistry", "subject_id": 165},
+  // {"title": "Chapter-2: Structure of Atom", "subject_id": 165},
+  // {"title": "Chapter-3: Classification of Elements and Periodicity in Properties", "subject_id": 165},
+  // {"title": "Chapter-4: Chemical Bonding and Molecular Structure", "subject_id": 165},
+  // {"title": "Chapter-5: Thermodynamics", "subject_id": 165},
+  // {"title": "Chapter-6: Equilibrium", "subject_id": 165},
+  // {"title": "Chapter-7: Redox Reactions", "subject_id": 165},
+  // {"title": "Chapter-8: Organic Chemistry - Some Basic Principles and Techniques", "subject_id": 165},
+  // {"title": "Chapter-9: Hydrocarbons", "subject_id": 165},
+
+  // {"title": "Chapter-1: Sets", "subject_id": 146},
+  // {"title": "Chapter-2: Relations and Functions", "subject_id": 146},
+  // {"title": "Chapter-3: Trigonometric Functions", "subject_id": 146},
+  // {"title": "Chapter-4: Complex Numbers and Quadratic Equations", "subject_id": 146},
+  // {"title": "Chapter-5: Linear Inequalities", "subject_id": 146},
+  // {"title": "Chapter-6: Permutations and Combinations", "subject_id": 146},
+  // {"title": "Chapter-7: Binomial Theorem", "subject_id": 146},
+  // {"title": "Chapter-8: Sequences and Series", "subject_id": 146},
+  // {"title": "Chapter-9: Straight Lines", "subject_id": 146},
+  // {"title": "Chapter-10: Conic Sections", "subject_id": 146},
+  // {"title": "Chapter-11: Introduction to Three Dimensional Geometry", "subject_id": 146},
+  // {"title": "Chapter-12: Limits and Derivatives", "subject_id": 146},
+  // {"title": "Chapter-13: Statistics", "subject_id": 146},
+  // {"title": "Chapter-14: Probability", "subject_id": 146},
+
+  // { "title": "Chapter 1: The Living World", "subject_id": 158 },
+  // { "title": "Chapter 2: Biological Classification", "subject_id": 158 },
+  // { "title": "Chapter 3: Plant Kingdom", "subject_id": 158 },
+  // { "title": "Chapter 4: Animal Kingdom", "subject_id": 158 },
+  // { "title": "Chapter 5: Morphology of Flowering Plants", "subject_id": 158 },
+  // { "title": "Chapter 6: Anatomy of Flowering Plants", "subject_id": 158 },
+  // { "title": "Chapter 7: Structural Organisation in Animals", "subject_id": 158 },
+  // { "title": "Chapter 8: Cell: The Unit of Life", "subject_id": 158 },
+  // { "title": "Chapter 9: Biomolecules", "subject_id": 158 },
+  // { "title": "Chapter 10: Cell Cycle and Cell Division", "subject_id": 158 },
+  // { "title": "Chapter 11: Transport in Plants", "subject_id": 158 },
+  // { "title": "Chapter 12: Mineral Nutrition", "subject_id": 158 },
+  // { "title": "Chapter 13: Photosynthesis in Higher Plants", "subject_id": 158 },
+  // { "title": "Chapter 14: Respiration in Plants", "subject_id": 158 },
+  // { "title": "Chapter 15: Plant Growth and Development", "subject_id": 158 },
+  // { "title": "Chapter 16: Digestion and Absorption", "subject_id": 158 },
+  // { "title": "Chapter 17: Breathing and Exchange of Gases", "subject_id": 158 },
+  // { "title": "Chapter 18: Body Fluids and Circulation", "subject_id": 158 },
+  // { "title": "Chapter 19: Excretory Products and their Elimination", "subject_id": 158 },
+  // { "title": "Chapter 20: Locomotion and Movement", "subject_id": 158 },
+  // { "title": "Chapter 21: Neural Control and Coordination", "subject_id": 158 },
+  // { "title": "Chapter 22: Chemical Coordination and Integration", "subject_id": 158 },
+ 
+  // { "title": "Hornbill: Chapter 1 - The Portrait of a Lady", "subject_id": 159 },
+  // { "title": "Hornbill: Poem 1 - A Photograph", "subject_id": 159 },
+  // { "title": "Hornbill: Chapter 2 - We’re Not Afraid to Die… if We Can All Be Together", "subject_id": 159 },
+  // { "title": "Hornbill: Chapter 3 - Discovering Tut: The Saga Continues", "subject_id": 159 },
+  // { "title": "Hornbill: Poem 2 - The Laburnum Top", "subject_id": 159 },
+  // { "title": "Hornbill: Poem 3 - The Voice of the Rain", "subject_id": 159 },
+  // { "title": "Hornbill: Chapter 4 - The Ailing Planet: The Green Movement’s Role", "subject_id": 159 },
+  // { "title": "Hornbill: Poem 4 - Childhood", "subject_id": 159 },
+  // { "title": "Hornbill: Chapter 5 - The Adventure", "subject_id": 159 },
+  // { "title": "Hornbill: Chapter 6 - Silk Road", "subject_id": 159 },
+  // { "title": "Hornbill: Poem 5 - Father to Son", "subject_id": 159 },
+
+  // {"title": "Snapshots: Chapter-1: The Summer of the Beautiful White Horse", "subject_id": 184},
+  // {"title": "Snapshots: Chapter-2: The Address", "subject_id": 184},
+  // {"title": "Snapshots: Chapter-3: Mother's Day", "subject_id": 184},
+  // {"title": "Snapshots: Chapter-4: Birth", "subject_id": 184},
+  // {"title": "Snapshots: Chapter-5: The Tale of Melon City", "subject_id": 184},
+
+  // { "title": "Woven Words: Chapter 1 - The Lament", "subject_id": 159 },
+  // { "title": "Woven Words: Chapter 2 - A Pair of Mustachios", "subject_id": 159 },
+  // { "title": "Woven Words: Chapter 3 - The Rocking-horse Winner", "subject_id": 159 },
+  // { "title": "Woven Words: Chapter 4 - The Adventure of the Three Garridebs", "subject_id": 159 },
+  // { "title": "Woven Words: Chapter 5 - Pappachi’s Moth", "subject_id": 159 },
+  // { "title": "Woven Words: Chapter 6 - The Third and Final Continent", "subject_id": 159 },
+  // { "title": "Woven Words: Chapter 7 - Glory at Twilight", "subject_id": 159 },
+  // { "title": "Woven Words: Chapter 8 - The Luncheon", "subject_id": 159 },
+  // { "title": "Woven Words: Poem 1 - The Peacock", "subject_id": 159 },
+  // { "title": "Woven Words: Poem 2 - Let Me Not to the Marriage of True Minds", "subject_id": 159 },
+  // { "title": "Woven Words: Poem 3 - Coming", "subject_id": 159 },
+  // { "title": "Woven Words: Poem 4 - Telephone Conversation", "subject_id": 159 },
+  // { "title": "Woven Words: Poem 5 - The World is too Much With Us", "subject_id": 159 },
+  // { "title": "Woven Words: Poem 6 - Mother Tongue", "subject_id": 159 },
+  // { "title": "Woven Words: Poem 7 - Hawk Roosting", "subject_id": 159 },
+  // { "title": "Woven Words: Poem 8 - For Elkana", "subject_id": 159 },
+  // { "title": "Woven Words: Poem 9 - Refugee Blues", "subject_id": 159 },
+  // { "title": "Woven Words: Poem 10 - Felling of the Banyan Tree", "subject_id": 159 },
+  // { "title": "Woven Words: Poem 11 - Ode to a Nightingale", "subject_id": 159 },
+  // { "title": "Woven Words: Poem 12 - Ajamil and the Tigers", "subject_id": 159 },
+  // { "title": "Woven Words: Essay 1 - My Watch", "subject_id": 159 },
+  // { "title": "Woven Words: Essay 2 - My Three Passions", "subject_id": 159 },
+  // { "title": "Woven Words: Essay 3 - Patterns of Creativity", "subject_id": 159 },
+  // { "title": "Woven Words: Essay 4 - Tribal Verse", "subject_id": 159 },
+  // { "title": "Woven Words: Essay 5 - What is a Good Book?", "subject_id": 159 },
+  // { "title": "Woven Words: Essay 6 - The Story", "subject_id": 159 },
+  // { "title": "Woven Words: Essay 7 - Bridges", "subject_id": 159 },
+
+  // {
+  //   "title": "Antra: Chapter 1 - ईदगाह",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Antra: Chapter 2 - दोपहर का भोजन",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Antra: Chapter 3 - टार्च बेचनेवाले",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Antra: Chapter 4 - गूँगे",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Antra: Chapter 5 - ज्योतिबा फुले",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Antra: Chapter 6 - खानाबदोश",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Antra: Chapter 7 - उसकी माँ",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Antra: Chapter 8 - भारतवर्ष की उन्नति कैसे हो सकती है?",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Antra: Chapter 9 - कबीर (कविता)",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Antra: Chapter 10 - सूरदास (कविता)",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Antra: Chapter 11 - हंसी की चोट सपना दरबार (कविता)",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Antra: Chapter 12 - संध्या के बाद (कविता)",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Antra: Chapter 13 - जाग तुझको दूर जाना सब आँखों की आसु उजले (कविता)",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Antra: Chapter 14 - बादल को गिरते देखा है (कविता)",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Antra: Chapter 15 - हस्तक्षेप (कविता)",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Antra: Chapter 16 - घर में वापसी (कविता)",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Vitan: Chapter 1 - भारतीय गायिकाओं में बेजोड़ – लता मंगेशकर",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Vitan: Chapter 2 - राजस्थान की रजत बूँदें",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Vitan: Chapter 3 - आलो आँधारी",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Vitan: Chapter 4 - भारतीय कलाएँ",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Aroh: Chapter 1 - नमक का दारोगा",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Aroh: Chapter 2 - मियाँ नसीरुद्दीन",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Aroh: Chapter 3 - अपू के साथ ढाई साल",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Aroh: Chapter 4 - विदाई – संभाषण",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Aroh: Chapter 5 - गलता लोहा",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Aroh: Chapter 6 - रजनी",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Aroh: Chapter 7 - जामुन का पेड़",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Aroh: Chapter 8 - भारत माता",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Aroh: Poem 1 - हम तौ एक एक करि जानां",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Aroh: Poem 2 - मेरे तो गिरधर गोपाल दूसरो न कोई",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Aroh: Poem 3 - घर की याद",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Aroh: Poem 4 - चम्पा काले काले अक्षर नहीं चीन्हती",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Aroh: Poem 5 - ग़ज़ल",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Aroh: Poem 6 - हे भूख! मत मचल",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Aroh: Poem 7 - हे मेरे जूही के फूल जैसे ईश्वर",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Aroh: Poem 8 - सबसे ख़तरनाक",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Aroh: Poem 9 - आओ, मिलकर बचाएँ",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Antral: Chapter 1 - हुसैन की कहानी अपनी जुबानी",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Antral: Chapter 2 - आवारा मसीहा",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Bhaswati: पाठ 1 - कुशलप्रशासनम्",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Bhaswati: पाठ 2 - सूक्तिसुधा",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Bhaswati: पाठ 3 - ऋतुचर्या",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Bhaswati: पाठ 4 - वीरः सर्वदमनः",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Bhaswati: पाठ 5 - शुकशावकोदन्तः",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Bhaswati: पाठ 6 - भव्यः सत्याग्रहाश्रमः",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Bhaswati: पाठ 7 - सड़्गीतानुरागी सुब्बण्णः",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Bhaswati: पाठ 8 - वस्त्रविक्रयः",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Bhaswati: पाठ 9 - यदभूतहितं तत्सत्यम्",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Bhaswati: पाठ 10 - स मे प्रियः",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Bhaswati: पाठ 11 - अथ शिक्शां प्रवक्श्यामि",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Shashwati: पाठ 1 - वेदमृतम्",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Shashwati: पाठ 2 - परोपकाराय सतां विभूतयः",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Shashwati: पाठ 3 - मानो हि महतां धनम्",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Shashwati: पाठ 4 - सौवर्णशकटीका",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Shashwati: पाठ 5 - आहारविचारः",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Shashwati: पाठ 6 - संततिप्रबोधनम्",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Shashwati: पाठ 7 - विज्ञाननौका",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Shashwati: पाठ 8 - कांथामणिक्यम्",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Shashwati: पाठ 9 - ईश: कुत्रास्ति",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Shashwati: पाठ 10 - सत्त्वमहोरजस्तम:",
+  //   "subject_id": 160
+  // },
+  // {
+  //   "title": "Shashwati: पाठ 11 - नवद्रव्याणि",
+  //   "subject_id": 160
+  // },
+
+
+  // {"title": "Chapter-1: Introduction to Accounting", "subject_id": 170},
+  // {"title": "Chapter-2: Theory Base of Accounting", "subject_id": 170},
+  // {"title": "Chapter-3: Recording of Transactions - I", "subject_id": 170},
+  // {"title": "Chapter-4: Recording of Transactions - II", "subject_id": 170},
+  // {"title": "Chapter-5: Bank Reconciliation Statement", "subject_id": 170},
+  // {"title": "Chapter-6: Trial Balance and Rectification of Errors", "subject_id": 170},
+  // {"title": "Chapter-7: Depreciation, Provisions and Reserves", "subject_id": 170},
+  // {"title": "Chapter-8: Financial Statements - I", "subject_id": 170},
+  // {"title": "Chapter-9: Financial Statements - II", "subject_id": 170},
+
+
+  // {"title": "Chapter-1: Business, Trade and Commerce", "subject_id": 171},
+  // {"title": "Chapter-2: Forms of Business Organisations", "subject_id": 171},
+  // {"title": "Chapter-3: Public, Private and Global Enterprises", "subject_id": 171},
+  // {"title": "Chapter-4: Business Services", "subject_id": 171},
+  // {"title": "Chapter-5: Emerging Modes of Business", "subject_id": 171},
+  // {"title": "Chapter-6: Social Responsibilities of Business and Business Ethics", "subject_id": 171},
+  // {"title": "Chapter-7: Formation of a Company", "subject_id": 171},
+  // {"title": "Chapter-8: Sources of Business Finance", "subject_id": 171},
+  // {"title": "Chapter-9: MSME and Business Entrepreneurship", "subject_id": 171},
+  // {"title": "Chapter-10: Internal Trade", "subject_id": 171},
+  // {"title": "Chapter-11: International Business", "subject_id": 171},
+
+
+  // {
+  //   "title": "Indian Economic Development: Chapter 1 - Indian Economy on the Eve of Independence",
+  //   "subject_id": 161
+  // },
+  // {
+  //   "title": "Indian Economic Development: Chapter 2 - Indian Economy (1950–1990)",
+  //   "subject_id": 161
+  // },
+  // {
+  //   "title": "Indian Economic Development: Chapter 3 - Liberalisation, Privatisation and Globalisation: An Appraisal",
+  //   "subject_id": 161
+  // },
+  // {
+  //   "title": "Indian Economic Development: Chapter 4 - Human Capital Formation in India",
+  //   "subject_id": 161
+  // },
+  // {
+  //   "title": "Indian Economic Development: Chapter 5 - Rural Development",
+  //   "subject_id": 161
+  // },
+  // {
+  //   "title": "Indian Economic Development: Chapter 6 - Employment: Growth, Informalisation and Other Issues",
+  //   "subject_id": 161
+  // },
+  // {
+  //   "title": "Indian Economic Development: Chapter 7 - Environment and Sustainable Development",
+  //   "subject_id": 161
+  // },
+  // {
+  //   "title": "Indian Economic Development: Chapter 8 - Comparative Development Experiences of India and Its Neighbours",
+  //   "subject_id": 161
+  // },
+  // {
+  //   "title": "Statistics for Economics: Chapter 1 - Introduction",
+  //   "subject_id": 161
+  // },
+  // {
+  //   "title": "Statistics for Economics: Chapter 2 - Collection of Data",
+  //   "subject_id": 161
+  // },
+  // {
+  //   "title": "Statistics for Economics: Chapter 3 - Organisation of Data",
+  //   "subject_id": 161
+  // },
+  // {
+  //   "title": "Statistics for Economics: Chapter 4 - Presentation of Data",
+  //   "subject_id": 161
+  // },
+  // {
+  //   "title": "Statistics for Economics: Chapter 5 - Measures of Central Tendency",
+  //   "subject_id": 161
+  // },
+  // {
+  //   "title": "Statistics for Economics: Chapter 6 - Correlation",
+  //   "subject_id": 161
+  // },
+  // {
+  //   "title": "Statistics for Economics: Chapter 7 - Index Numbers",
+  //   "subject_id": 161
+  // },
+  // {
+  //   "title": "Statistics for Economics: Chapter 8 - Use of Statistical Tools",
+  //   "subject_id": 161
+  // },
+
+  // {"title": "Introducing Sociology: Chapter-1 - Sociology and Society", "subject_id": 173},
+  // {"title": "Introducing Sociology: Chapter-2 - Terms, Concepts and Their Use in Sociology", "subject_id": 173},
+  // {"title": "Introducing Sociology: Chapter-3 - Understanding Social Institutions", "subject_id": 173},
+  // {"title": "Introducing Sociology: Chapter-4 - Culture and Socialisation", "subject_id": 173},
+  // {"title": "Introducing Sociology: Chapter-5 - Doing Sociology: Research Methods", "subject_id": 173},
+  // {
+  //   "title": "Understanding Society: Chapter 1 - Social Structure, Stratification and Social Processes in Society",
+  //   "subject_id": 162
+  // },
+  // {
+  //   "title": "Understanding Society: Chapter 2 - Social Change and Social Order in Rural and Urban Society",
+  //   "subject_id": 162
+  // },
+  // {
+  //   "title": "Understanding Society: Chapter 3 - Environment and Society",
+  //   "subject_id": 162
+  // },
+  // {
+  //   "title": "Understanding Society: Chapter 4 - Introducing Western Sociologists",
+  //   "subject_id": 162
+  // },
+  // {
+  //   "title": "Understanding Society: Chapter 5 - Indian Sociologists",
+  //   "subject_id": 162
+  // },
+
+
+  // {"title": "Chapter-1: What is Psychology?", "subject_id": 174},
+  // {"title": "Chapter-2: Methods of Enquiry in Psychology", "subject_id": 174},
+  // {"title": "Chapter-3: Human Development", "subject_id": 174},
+  // {"title": "Chapter-4: Sensory, Attentional and Perceptual Processes", "subject_id": 174},
+  // {"title": "Chapter-5: Learning", "subject_id": 174},
+  // {"title": "Chapter-6: Human Memory", "subject_id": 174},
+  // {"title": "Chapter-7: Thinking", "subject_id": 174},
+  // {"title": "Chapter-8: Motivation and Emotion", "subject_id": 174},
+
+
+  // {
+  //   "title": "Fundamentals of Physical Geography: Chapter 1 - Geography as a Discipline",
+  //   "subject_id": 163
+  // },
+  // {
+  //   "title": "Fundamentals of Physical Geography: Chapter 2 - The Origin and Evolution of the Earth",
+  //   "subject_id": 163
+  // },
+  // {
+  //   "title": "Fundamentals of Physical Geography: Chapter 3 - Interior of the Earth",
+  //   "subject_id": 163
+  // },
+  // {
+  //   "title": "Fundamentals of Physical Geography: Chapter 4 - Distribution of Oceans and Continents",
+  //   "subject_id": 163
+  // },
+  // {
+  //   "title": "Fundamentals of Physical Geography: Chapter 5 - Geomorphic Processes",
+  //   "subject_id": 163
+  // },
+  // {
+  //   "title": "Fundamentals of Physical Geography: Chapter 6 - Landforms and their Evolution",
+  //   "subject_id": 163
+  // },
+  // {
+  //   "title": "Fundamentals of Physical Geography: Chapter 7 - Composition and Structure of Atmosphere",
+  //   "subject_id": 163
+  // },
+  // {
+  //   "title": "Fundamentals of Physical Geography: Chapter 8 - Solar Radiation, Heat Balance and Temperature",
+  //   "subject_id": 163
+  // },
+  // {
+  //   "title": "Fundamentals of Physical Geography: Chapter 9 - Atmospheric Circulation and Weather Systems",
+  //   "subject_id": 163
+  // },
+  // {
+  //   "title": "Fundamentals of Physical Geography: Chapter 10 - Water in the Atmosphere",
+  //   "subject_id": 163
+  // },
+  // {
+  //   "title": "Fundamentals of Physical Geography: Chapter 11 - World Climate and Climate Change",
+  //   "subject_id": 163
+  // },
+  // {
+  //   "title": "Fundamentals of Physical Geography: Chapter 12 - Water (Oceans)",
+  //   "subject_id": 163
+  // },
+  // {
+  //   "title": "Fundamentals of Physical Geography: Chapter 13 - Movements of Ocean Water",
+  //   "subject_id": 163
+  // },
+  // {
+  //   "title": "Fundamentals of Physical Geography: Chapter 14 - Biodiversity and Conservation",
+  //   "subject_id": 163
+  // },
+  // {
+  //   "title": "Practical Work in Geography: Chapter 1 - Introduction to Maps",
+  //   "subject_id": 163
+  // },
+  // {
+  //   "title": "Practical Work in Geography: Chapter 2 - Map Scale",
+  //   "subject_id": 163
+  // },
+  // {
+  //   "title": "Practical Work in Geography: Chapter 3 - Latitude, Longitude and Time",
+  //   "subject_id": 163
+  // },
+  // {
+  //   "title": "Practical Work in Geography: Chapter 4 - Map Projections",
+  //   "subject_id": 163
+  // },
+  // {
+  //   "title": "Practical Work in Geography: Chapter 5 - Topographical Maps",
+  //   "subject_id": 163
+  // },
+  // {
+  //   "title": "Practical Work in Geography: Chapter 6 - Introduction to Remote Sensing",
+  //   "subject_id": 163
+  // },
+  // {
+  //   "title": "India Physical Environment: Chapter 1 - India: Location",
+  //   "subject_id": 163
+  // },
+  // {
+  //   "title": "India Physical Environment: Chapter 2 - Structure and Physiography",
+  //   "subject_id": 163
+  // },
+  // {
+  //   "title": "India Physical Environment: Chapter 3 - Drainage System",
+  //   "subject_id": 163
+  // },
+  // {
+  //   "title": "India Physical Environment: Chapter 4 - Climate",
+  //   "subject_id": 163
+  // },
+  // {
+  //   "title": "India Physical Environment: Chapter 5 - Natural Vegetation",
+  //   "subject_id": 163
+  // },
+  // {
+  //   "title": "India Physical Environment: Chapter 6 - Natural Hazards and Disasters",
+  //   "subject_id": 163
+  // },
+
+
+  // {"title": "Chapter-1: Writing and City Life", "subject_id": 176},
+  // {"title": "Chapter-2: An Empire Across Three Continents", "subject_id": 176},
+  // {"title": "Chapter-3: Nomadic empires", "subject_id": 176},
+  // {"title": "Chapter-4: The Three Orders", "subject_id": 176},
+  // {"title": "Chapter-5: Changing Cultural Traditions", "subject_id": 176},
+  // {"title": "Chapter-6: Paths to Modernisation", "subject_id": 176},
+  // {"title": "Chapter-7: Displacing Indigenous Peoples", "subject_id": 176},
+
+
+  // {
+  //   "title": "Political Theory: Chapter 1 - Political Theory: An Introduction",
+  //   "subject_id": 164
+  // },
+  // {
+  //   "title": "Political Theory: Chapter 2 - Freedom",
+  //   "subject_id": 164
+  // },
+  // {
+  //   "title": "Political Theory: Chapter 3 - Equality",
+  //   "subject_id": 164
+  // },
+  // {
+  //   "title": "Political Theory: Chapter 4 - Social Justice",
+  //   "subject_id": 164
+  // },
+  // {
+  //   "title": "Political Theory: Chapter 5 - Rights",
+  //   "subject_id": 164
+  // },
+  // {
+  //   "title": "Political Theory: Chapter 6 - Citizenship",
+  //   "subject_id": 164
+  // },
+  // {
+  //   "title": "Political Theory: Chapter 7 - Nationalism",
+  //   "subject_id": 164
+  // },
+  // {
+  //   "title": "Political Theory: Chapter 8 - Secularism",
+  //   "subject_id": 164
+  // },
+  // {"title": "Indian Constitution at work: Chapter 1 - Constitution: Why and How?", "subject_id": 177},
+  // {"title": "Indian Constitution at work: Chapter 2 - Rights in the Indian Constitution", "subject_id": 177},
+  // {"title": "Indian Constitution at work: Chapter 3 - Election and Representation", "subject_id": 177},
+  // {"title": "Indian Constitution at work: Chapter 4 - Executive", "subject_id": 177},
+  // {"title": "Indian Constitution at work: Chapter 5 - Legislature", "subject_id": 177},
+  // {"title": "Indian Constitution at work: Chapter 6 - Judiciary", "subject_id": 177},
+  // {"title": "Indian Constitution at work: Chapter 7 - Federalism", "subject_id": 177},
+  // {"title": "Indian Constitution at work: Chapter 8 - Local Governments", "subject_id": 177},
+  // {"title": "Indian Constitution at work: Chapter 9 - Constitution as a Living Document", "subject_id": 177},
+  // {"title": "Indian Constitution at work: Chapter 10 - The Philosophy of The Constitiution", "subject_id": 177},
+
+
+  // {"title": " Chapter-1: Computer Systems and Organization", "subject_id": 178},
+  // {"title": " Chapter-2: Computational Thinking and Programming - 1", "subject_id": 178},
+  // {"title": " Chapter-3: Data Handling", "subject_id": 178},
+  // {"title": " Chapter-4: Computer Networks", "subject_id": 178},
+  // {"title": " Chapter-5: Society, Law and Ethics", "subject_id": 178},
+
+  // {
+  //   "title": "Chapter-1: Physical Education",
+  //   "subject_id": 182
+  // },
+  // {
+  //   "title": "Chapter-2: Understanding Health",
+  //   "subject_id": 182
+  // },
+  // {
+  //   "title": "Chapter-3: Physical and Physiological Aspects of Physical Education and Sports",
+  //   "subject_id": 182
+  // },
+  // {
+  //   "title": "Chapter-4: Individual Games",
+  //   "subject_id": 182
+  // },
+  // {
+  //   "title": "Chapter-5: Team Games",
+  //   "subject_id": 182
+  // },
+  // {
+  //   "title": "Chapter-6: Yoga and its Relevance in the Modern Times",
+  //   "subject_id": 182
+  // },
+  // {
+  //   "title": "Chapter-7: Safety and Security",
+  //   "subject_id": 182
+  // },
+  // {
+  //   "title": "Chapter-8: Health Related Physical Fitness",
+  //   "subject_id": 182
+  // },
+  // {
+  //   "title": "Chapter-9: Measurement and Evaluation",
+  //   "subject_id": 182
+  // },
+  // {
+  //   "title": "Chapter-10: Tournaments and Competitions",
+  //   "subject_id": 182
+  // },
+  // {
+  //   "title": "Chapter-11: Adventure Sports",
+  //   "subject_id": 182
+  // },
+
+  // {
+  //   "title": "Chapter-1: Computer System",
+  //   "subject_id": 181
+  // },
+  // {
+  //   "title": "Chapter-2: Emerging Trends",
+  //   "subject_id": 181
+  // },
+  // {
+  //   "title": "Chapter-3: Brief Overview of Python",
+  //   "subject_id": 181
+  // },
+  // {
+  //   "title": "Chapter-4: Working with Lists and Dictionaries",
+  //   "subject_id": 181
+  // },
+  // {
+  //   "title": "Chapter-5: Understanding Data",
+  //   "subject_id": 181
+  // },
+  // {
+  //   "title": "Chapter-6: Introduction to NumPy",
+  //   "subject_id": 181
+  // },
+  // {
+  //   "title": "Chapter-7: Database Concepts",
+  //   "subject_id": 181
+  // },
+  // {
+  //   "title": "Chapter-8: Introduction to Structured Query Language (SQL)",
+  //   "subject_id": 181
+  // },
+
+  // {"title": " Chapter-1: Computer System", "subject_id": 178},
+  // {"title": " Chapter-2: Encoding Schemes and Number System", "subject_id": 178},
+  // {"title": " Chapter-3: Emerging Trends", "subject_id": 178},
+  // {"title": " Chapter-4: Introduction to Problem Solving", "subject_id": 178},
+  // {"title": " Chapter-5: Getting Started with Python", "subject_id": 178},
+  // {"title": " Chapter-6: Flow of Control", "subject_id": 178},
+  // {"title": " Chapter-7: Functions", "subject_id": 178},
+  // {"title": " Chapter-8: Strings", "subject_id": 178},
+  // {"title": " Chapter-9: Lists", "subject_id": 178},
+  // {"title": " Chapter-10: Tuples and Dictionaries", "subject_id": 178},
+  // {"title": " Chapter-11: Societal Impact", "subject_id": 178},
+
+
+  // {
+  //   "title": "Chapter-1: Exception Handling in Python",
+  //   "subject_id": 183
+  // },
+  // {
+  //   "title": "Chapter-2: File Handling in Python",
+  //   "subject_id": 183
+  // },
+  // {
+  //   "title": "Chapter-3: Stack",
+  //   "subject_id": 183
+  // },
+  // {
+  //   "title": "Chapter-4: Queue",
+  //   "subject_id": 183
+  // },
+  // {
+  //   "title": "Chapter-5: Sorting",
+  //   "subject_id": 183
+  // },
+  // {
+  //   "title": "Chapter-6: Searching",
+  //   "subject_id": 183
+  // },
+  // {
+  //   "title": "Chapter-7: Understanding Data",
+  //   "subject_id": 183
+  // },
+  // {
+  //   "title": "Chapter-8: Database Concepts",
+  //   "subject_id": 183
+  // },
+  // {
+  //   "title": "Chapter-9: Structured Query Language (SQL)",
+  //   "subject_id": 183
+  // },
+  // {
+  //   "title": "Chapter-10: Computer Networks",
+  //   "subject_id": 183
+  // },
+  // {
+  //   "title": "Chapter-11: Data Communication",
+  //   "subject_id": 183
+  // },
+  // {
+  //   "title": "Chapter-12: Security Aspects",
+  //   "subject_id": 183
+  // },
+  // {
+  //   "title": "Chapter-13: Project Based Learning",
+  //   "subject_id": 183
+  // },
+
+  // {
+  //   "title": "Chapter-1: Querying and SQL Functions",
+  //   "subject_id": 183
+  // },
+  // {
+  //   "title": "Chapter-2: Data Handling Using Pandas – I",
+  //   "subject_id": 183
+  // },
+  // {
+  //   "title": "Chapter-3: Data Handling Using Pandas – II",
+  //   "subject_id": 183
+  // },
+  // {
+  //   "title": "Chapter-4: Plotting Data Using Matplotlib",
+  //   "subject_id": 183
+  // },
+  // {
+  //   "title": "Chapter-5: Internet and Web",
+  //   "subject_id": 183
+  // },
+  // {
+  //   "title": "Chapter-6: Societal Impacts",
+  //   "subject_id": 183
+  // },
+  // {
+  //   "title": "Chapter-7: Project Based Learning",
+  //   "subject_id": 183
+  // },
+
+  // {
+  //   "title": "Chapter-1: Electric Charges and Fields",
+  //   "subject_id": 184
+  // },
+  // {
+  //   "title": "Chapter-2: Electrostatic Potential and Capacitance",
+  //   "subject_id": 184
+  // },
+  // {
+  //   "title": "Chapter-3: Current Electricity",
+  //   "subject_id": 184
+  // },
+  // {
+  //   "title": "Chapter-4: Moving Charges and Magnetism",
+  //   "subject_id": 184
+  // },
+  // {
+  //   "title": "Chapter-5: Magnetism and Matter",
+  //   "subject_id": 184
+  // },
+  // {
+  //   "title": "Chapter-6: Electromagnetic Induction",
+  //   "subject_id": 184
+  // },
+  // {
+  //   "title": "Chapter-7: Alternating Current",
+  //   "subject_id": 184
+  // },
+  // {
+  //   "title": "Chapter-8: Electromagnetic Waves",
+  //   "subject_id": 184
+  // },
+  // {
+  //   "title": "Chapter-9: Ray Optics and Optical Instruments",
+  //   "subject_id": 184
+  // },
+  // {
+  //   "title": "Chapter-10: Wave Optics",
+  //   "subject_id": 184
+  // },
+  // {
+  //   "title": "Chapter-11: Dual Nature of Radiation and Matter",
+  //   "subject_id": 184
+  // },
+  // {
+  //   "title": "Chapter-12: Atoms",
+  //   "subject_id": 184
+  // },
+  // {
+  //   "title": "Chapter-13: Nuclei",
+  //   "subject_id": 184
+  // },
+  // {
+  //   "title": "Chapter-14: Semiconductor Electronics: Materials, Devices and Simple Circuits",
+  //   "subject_id": 184
+  // },
+
+
+  // {"title": "Chapter-1: Relations and Functions", "subject_id": 147},
+  // {"title": "Chapter-2: Inverse Trigonometric Functions", "subject_id": 147},
+  // {"title": "Chapter-3: Matrices", "subject_id": 147},
+  // {"title": "Chapter-4: Determinants", "subject_id": 147},
+  // {"title": "Chapter-5: Continuity and Differentiability", "subject_id": 147},
+  // {"title": "Chapter-6: Application of Derivatives", "subject_id": 147},
+  // {"title": "Chapter-7: Integrals", "subject_id": 147},
+  // {"title": "Chapter-8: Application of Integrals", "subject_id": 147},
+  // {"title": "Chapter-9: Differential Equations", "subject_id": 147},
+  // {"title": "Chapter-10: Vector Algebra", "subject_id": 147},
+  // {"title": "Chapter-11: Three Dimensional Geometry", "subject_id": 147},
+  // {"title": "Chapter-12: Linear Programming", "subject_id": 147},
+  // {"title": "Chapter-13: Probability", "subject_id": 147},
+
+  // {"title": "Chapter-1: Solutions", "subject_id": 166},
+  // {"title": "Chapter-2: Electrochemistry", "subject_id": 166},
+  // {"title": "Chapter-3: Chemical Kinetics", "subject_id": 166},
+  // {"title": "Chapter-4: Surface Chemistry", "subject_id": 166},
+  // {"title": "Chapter-5: The d- and f-Block Elements", "subject_id": 166},
+  // {"title": "Chapter-6: The Haloalkanes and Haloarenes", "subject_id": 166},
+  // {"title": "Chapter-7: The Alcohols, Phenols and Ethers", "subject_id": 166},
+  // {"title": "Chapter-8: The Aldehydes, Ketones and Carboxylic Acids", "subject_id": 166},
+  // {"title": "Chapter-9: Amines", "subject_id": 166},
+  // {"title": "Chapter-10: Biomolecules", "subject_id": 166},
+
+
+  // {"title": "Chapter-1: Sexual Reproduction in Flowering Plants", "subject_id": 167},
+  // {"title": "Chapter-2: Human Reproduction", "subject_id": 167},
+  // {"title": "Chapter-3: Reproductive Health", "subject_id": 167},
+  // {"title": "Chapter-4: Principles of Inheritance and Variation", "subject_id": 167},
+  // {"title": "Chapter-5: Molecular Basis of Inheritance", "subject_id": 167},
+  // {"title": "Chapter-6: Evolution", "subject_id": 167},
+  // {"title": "Chapter-7: Human Health and Disease", "subject_id": 167},
+  // {"title": "Chapter-8: Microbes in Human Welfare", "subject_id": 167},
+  // {
+  //   "title": "Chapter-9: Biotechnology: Principles and Processes",
+  //   "subject_id": 185
+  // },
+  // {
+  //   "title": "Chapter-10: Biotechnology and its Applications",
+  //   "subject_id": 185
+  // },
+  // {
+  //   "title": "Chapter-11: Organisms and Populations",
+  //   "subject_id": 185
+  // },
+  // {
+  //   "title": "Chapter-12: Ecosystem",
+  //   "subject_id": 185
+  // },
+  // {
+  //   "title": "Chapter-13: Biodiversity and Conservation",
+  //   "subject_id": 185
+  // },
+
+  // {"title": "Chapter-1: Accounting for Not-for-Profit Organisations", "subject_id": 301},
+  // {"title": "Chapter-2: Accounting for Partnership - Basic Concepts", "subject_id": 301},
+  // {"title": "Chapter-3: Reconstitution of Partnership - Admission of a Partner", "subject_id": 301},
+  // {"title": "Chapter-4: Reconstitution of Partnership - Retirement/Death of a Partner", "subject_id": 301},
+  // {"title": "Chapter-5: Dissolution of Partnership Firm", "subject_id": 301},
+  // {"title": "Chapter-6: Accounting for Share Capital", "subject_id": 301},
+  // {"title": "Chapter-7: Issue and Redemption of Debentures", "subject_id": 301},
+  // {"title": "Chapter-8: Financial Statements of a Company", "subject_id": 301},
+  // {"title": "Chapter-9: Analysis of Financial Statements", "subject_id": 301},
+  // {"title": "Chapter-10: Accounting Ratios", "subject_id": 301},
+  // {"title": "Chapter-11: Cash Flow Statement", "subject_id": 301},
+
+  // {
+  //   "title": "Computerised Accounting System: Chapter 1  -Overview of Computerised Accounting System",
+  //   "subject_id": 186
+  // },
+  // {
+  //   "title": "Computerised Accounting System: Chapter 2 - Spreadsheet",
+  //   "subject_id": 186
+  // },
+  // {
+  //   "title": "Computerised Accounting System: Chapter 3 - Use of Spreadsheet in Business Applications",
+  //   "subject_id": 186
+  // },
+  // {
+  //   "title": "Computerised Accounting System: Chapter 4 - Graphs and Charts for Business Data",
+  //   "subject_id": 186
+  // },
+  // {
+  //   "title": "Computerised Accounting System: Chapter 5 - Database Management System for Accounting",
+  //   "subject_id": 186
+  // },
+
+
+  // {"title": "Chapter-1: Nature and Significance of Management", "subject_id": 302},
+  // {"title": "Chapter-2: Principles of Management", "subject_id": 302},
+  // {"title": "Chapter-3: Business Environment", "subject_id": 302},
+  // {"title": "Chapter-4: Planning", "subject_id": 302},
+  // {"title": "Chapter-5: Organising", "subject_id": 302},
+  // {"title": "Chapter-6: Staffing", "subject_id": 302},
+  // {"title": "Chapter-7: Directing", "subject_id": 302},
+  // {"title": "Chapter-8: Controlling", "subject_id": 302},
+  // {"title": "Chapter-9: Financial Management", "subject_id": 302},
+  // {"title": "Chapter-10: Financial Markets", "subject_id": 302},
+  // {"title": "Chapter-11: Marketing Management", "subject_id": 302},
+  // {"title": "Chapter-12: Consumer Protection", "subject_id": 302},
+
+
+  // {"title": "Chapter-1: Introduction to Microeconomics", "subject_id": 303},
+  // {"title": "Chapter-2: Consumer Behaviour and Demand", "subject_id": 303},
+  // {"title": "Chapter-3: Producer Behaviour and Supply", "subject_id": 303},
+  // {"title": "Chapter-4: Forms of Market and Price Determination", "subject_id": 303},
+  // {"title": "Chapter-5: National Income and Related Aggregates", "subject_id": 303},
+  // {"title": "Chapter-6: Money and Banking", "subject_id": 303},
+  // {"title": "Chapter-7: Determination of Income and Employment", "subject_id": 303},
+  // {"title": "Chapter-8: Government Budget and the Economy", "subject_id": 303},
+  // {"title": "Chapter-9: Balance of Payments", "subject_id": 303},
+
+
+  // {"title": "Chapter-1: Bricks, Beads and Bones", "subject_id": 401},
+  // {"title": "Chapter-2: Kings, Farmers and Towns", "subject_id": 401},
+  // {"title": "Chapter-3: Kinship, Caste and Class", "subject_id": 401},
+  // {"title": "Chapter-4: Thinkers, Beliefs and Buildings", "subject_id": 401},
+  // {"title": "Chapter-5: Through the Eyes of Travellers", "subject_id": 401},
+  // {"title": "Chapter-6: Bhakti-Sufi Traditions", "subject_id": 401},
+  // {"title": "Chapter-7: An Imperial Capital: Vijayanagara", "subject_id": 401},
+  // {"title": "Chapter-8: Peasants, Zamindars and the State", "subject_id": 401},
+  // {"title": "Chapter-9: Kings and Chronicles", "subject_id": 401},
+  // {"title": "Chapter-10: Colonialism and the Countryside", "subject_id": 401},
+  // {"title": "Chapter-11: Rebels and the Raj", "subject_id": 401},
+
+
+  // {"title": "Chapter-1: Contemporary World Politics", "subject_id": 402},
+  // {"title": "Chapter-2: Politics in India Since Independence", "subject_id": 402},
+  // {"title": "Chapter-3: Challenges to Nation-Building", "subject_id": 402},
+  // {"title": "Chapter-4: Politics of Planned Development", "subject_id": 402},
+  // {"title": "Chapter-5: India’s Foreign Policy", "subject_id": 402},
+
+
+  // {"title": "Chapter-1: Introducing Sociology", "subject_id": 403},
+  // {"title": "Chapter-2: The Demographic Structure of the Indian Society", "subject_id": 403},
+  // {"title": "Chapter-3: Social Institutions: Continuity and Change", "subject_id": 403},
+  // {"title": "Chapter-4: Patterns of Social Inequality and Exclusion", "subject_id": 403},
+  // {"title": "Chapter-5: The Challenges of Cultural Diversity", "subject_id": 403},
+
+
+  // {"title": "Chapter-1: Variations in Psychological Attributes", "subject_id": 404},
+  // {"title": "Chapter-2: Self and Personality", "subject_id": 404},
+  // {"title": "Chapter-3: Meeting Life Challenges", "subject_id": 404},
+  // {"title": "Chapter-4: Psychological Disorders", "subject_id": 404},
+  // {"title": "Chapter-5: Therapeutic Approaches", "subject_id": 404},
+  // {"title": "Chapter-6: Attitude and Social Cognition", "subject_id": 404},
+  // {"title": "Chapter-7: Social Influence and Group Processes", "subject_id": 404},
+  // {"title": "Chapter-8: Psychology and Life", "subject_id": 404},
+
+
+  // {"title": "Chapter-1: Human Nature and Scope", "subject_id": 405},
+  // {"title": "Chapter-2: People", "subject_id": 405},
+  // {"title": "Chapter-3: Human Settlements", "subject_id": 405},
+  // {"title": "Chapter-4: Human Environment – Resources", "subject_id": 405},
+  // {"title": "Chapter-5: Agriculture", "subject_id": 405},
+  // {"title": "Chapter-6: Minerals and Energy Resources", "subject_id": 405},
+  // {"title": "Chapter-7: Manufacturing Industries", "subject_id": 405},
+  // {"title": "Chapter-8: Lifelines of National Economy", "subject_id": 405},
+
+  // {"title": "Flamingo: Chapter-1: The Last Lesson", "subject_id": 406},
+  // {"title": "Flamingo: Chapter-2: Lost Spring", "subject_id": 406},
+  // {"title": "Flamingo: Chapter-3: Deep Water", "subject_id": 406},
+  // {"title": "Flamingo: Chapter-4: The Rattrap", "subject_id": 406},
+  // {"title": "Flamingo: Chapter-5: Indigo", "subject_id": 406},
+  // {"title": "Flamingo: Chapter-6: Poets and Pancakes", "subject_id": 406},
+  // {"title": "Flamingo: Chapter-7: The Interview", "subject_id": 406},
+  // {"title": "Flamingo: Chapter-8: Going Places", "subject_id": 406},
+  // {"title": "Flamingo: Chapter-9: Aunt Jennifer's Tigers", "subject_id": 406},
+  // {"title": "Vistas: Chapter-1: The Third Level", "subject_id": 406},
+  // {"title": "Vistas: Chapter-2: The Tiger King", "subject_id": 406},
+  // {"title": "Vistas: Chapter-3: Journey to the Centre of the Earth", "subject_id": 406},
+  // {"title": "Vistas: Chapter-4: The Enemy", "subject_id": 406},
+  // {"title": "Vistas: Chapter-5: Should Wizard Hit Mommy?", "subject_id": 406},
+  // {"title": "Vistas: Chapter-6: On the Face of It", "subject_id": 406},
+  // {"title": "Vistas: Chapter-7: Evans Tries an O-Level", "subject_id": 406},
+  // {"title": "Vistas: Chapter-8: Memories of Childhood", "subject_id": 406},
+
+  // {"title": "Chapter-1: Data Handling using Pandas", "subject_id": 409},
+  // {"title": "Chapter-2: Database Query using SQL", "subject_id": 409},
+  // {"title": "Chapter-3: Python Programming – Functions and Files", "subject_id": 409},
+  // {"title": "Chapter-4: Data Visualization", "subject_id": 409},
+  // {"title": "Chapter-5: Data Analysis", "subject_id": 409},
+  // {"title": "Chapter-6: Society, Law and Ethics", "subject_id": 409},
+
+  // {
+  //   "title": "Bhaswati: अध्याय-1: अनुशासनम्",
+  //   "subject_id": 408
+  // },
+  // {
+  //   "title": "Bhaswati: अध्याय-2: न त्वं शोचितुमर्हसि",
+  //   "subject_id": 408
+  // },
+  // {
+  //   "title": "Bhaswati: अध्याय-3: मातुराञा गरीयसी",
+  //   "subject_id": 408
+  // },
+  // {
+  //   "title": "Bhaswati: अध्याय-4: प्रजानुरज्जको नृपः",
+  //   "subject_id": 408
+  // },
+  // {
+  //   "title": "Bhaswati: अध्याय-5: दौवारिकस्य निष्ठा",
+  //   "subject_id": 408
+  // },
+  // {
+  //   "title": "Bhaswati: अध्याय-6: सूक्ति-सौरभम्",
+  //   "subject_id": 408
+  // },
+  // {
+  //   "title": "Bhaswati: अध्याय-7: नैकेनापि समं गता वसुमती",
+  //   "subject_id": 408
+  // },
+  // {
+  //   "title": "Bhaswati: अध्याय-8: हल्दीघाटी",
+  //   "subject_id": 408
+  // },
+  // {
+  //   "title": "Bhaswati: अध्याय-9: मदालसा",
+  //   "subject_id": 408
+  // },
+  // {
+  //   "title": "Bhaswati: अध्याय-10: प्रतीक्षा",
+  //   "subject_id": 408
+  // },
+  // {
+  //   "title": "Bhaswati: अध्याय-11: कार्याकार्यव्यवस्थिति",
+  //   "subject_id": 408
+  // },
+  // {
+  //   "title": "Bhaswati: अध्याय-12: विद्यास्थानानी",
+  //   "subject_id": 408
+  // },
+  // {
+  //   "title": "Sawati: अध्याय-1: विद्यामृतमशनुते",
+  //   "subject_id": 408
+  // },
+  // {
+  //   "title": "Sawati: अध्याय-2: रघुकुलसंवादः",
+  //   "subject_id": 408
+  // },
+  // {
+  //   "title": "Sawati: अध्याय-3: बालकौतुकम्",
+  //   "subject_id": 408
+  // },
+  // {
+  //   "title": "Sawati: अध्याय-4: कर्मगौरवम्",
+  //   "subject_id": 408
+  // },
+  // {
+  //   "title": "Sawati: अध्याय-5: शुकनाशोपदेशः",
+  //   "subject_id": 408
+  // },
+  // {
+  //   "title": "Sawati: अध्याय-6: सुत्तिसुधा",
+  //   "subject_id": 408
+  // },
+  // {
+  //   "title": "Sawati: अध्याय-7: विक्रमसयोध्यम्",
+  //   "subject_id": 408
+  // },
+  // {
+  //   "title": "Sawati: अध्याय-8: भूमिभागः",
+  //   "subject_id": 408
+  // },
+  // {
+  //   "title": "Sawati: अध्याय-9: कार्यवसाध्येयं",
+  //   "subject_id": 408
+  // },
+  // {
+  //   "title": "Sawati: अध्याय-10: दीनबन्धु श्रीनायरः",
+  //   "subject_id": 408
+  // },
+  // {
+  //   "title": "Sawati: अध्याय-11: उद्भिज्परिषद्",
+  //   "subject_id": 408
+  // },
+  // {
+  //   "title": "Sawati: अध्याय-12: किंतु कुटिलता",
+  //   "subject_id": 408
+  // },
+
+  // { "title": "Aroh: आत्मपरिचय", "subject_id": 156 },
+  // { "title": "Aroh: एक गीत", "subject_id": 156 },
+  // { "title": "Aroh: पतंग", "subject_id": 156 },
+  // { "title": "Aroh: कविता के बहाने", "subject_id": 156 },
+  // { "title": "Aroh: बात सीधी थी पर", "subject_id": 156 },
+  // { "title": "Aroh: कैमरे में बंद अपाहिज", "subject_id": 156 },
+  // { "title": "Aroh: सहर्ष स्वीकारा है", "subject_id": 156 },
+  // { "title": "Aroh: उषा", "subject_id": 156 },
+  // { "title": "Aroh: बादल राग", "subject_id": 156 },
+  // { "title": "Aroh: कवितावली (उत्तर कांड से)", "subject_id": 156 },
+  // { "title": "Aroh: लक्ष्मण-मूर्छा और राम का विलाप", "subject_id": 156 },
+  // { "title": "Aroh: रुबाइयाँ", "subject_id": 156 },
+  // { "title": "Aroh: ग़ज़ल", "subject_id": 156 },
+  // { "title": "Aroh: छोटा मेरा खेत", "subject_id": 156 },
+  // { "title": "Aroh: बगुलों के पंख", "subject_id": 156 },
+  // { "title": "Aroh: भक्तिन", "subject_id": 156 },
+  // { "title": "Aroh: बाज़ार दर्शन", "subject_id": 156 },
+  // { "title": "Aroh: काले मेघा पानी दे", "subject_id": 156 },
+  // { "title": "Aroh: पहलवान की ढोलक", "subject_id": 156 },
+  // { "title": "Aroh: चार्ली चैप्लिन यानी हम सब", "subject_id": 156 },
+  // { "title": "Aroh: नमक", "subject_id": 156 },
+  // { "title": "Aroh: शिरीष के फूल", "subject_id": 156 },
+  // { "title": "Aroh: श्रम-विभाजन और जाति-प्रथा", "subject_id": 156 },
+  // { "title": "Aroh: मेरी कल्पना का आदर्श समाज", "subject_id": 156 },
+
+  // { "title": "Vitan: सिल्वर वैडिंग", "subject_id": 156 },
+  // { "title": "Vitan: जूझ", "subject_id": 156 },
+  // { "title": "Vitan: अतीत में दबे पाँव", "subject_id": 156 },
+
+  // { "title": "Antral: सूरदास की झोंपड़ी", "subject_id": 156 },
+  // { "title": "Antral: बिस्कोहर की माटी", "subject_id": 156 },
+  // { "title": "Antral: अपना मालवा-खाऊ-उजाड़ू सभ्यता में", "subject_id": 156 },
+
+  // [
+  // { "title": "Antra: देवसेना का गीत, कार्नेलिया का गीत", "subject_id": 156 },
+  // { "title": "Antra: सरोज स्मृति", "subject_id": 156 },
+  // { "title": "Antra: यह दीप अकेला, मैंने देखा, एक बूँद", "subject_id": 156 },
+  // { "title": "Antra: बनारस, दिशा", "subject_id": 156 },
+  // { "title": "Antra: एक कम, सत्य", "subject_id": 156 },
+  // { "title": "Antra: वसंत आया, तोड़ो", "subject_id": 156 },
+  // { "title": "Antra: भरत-राम का प्रेम, तुलसीदास के पद", "subject_id": 156 },
+  // { "title": "Antra: बारहमासा", "subject_id": 156 },
+  // { "title": "Antra: विद्यापति के पद", "subject_id": 156 },
+  // { "title": "Antra: घनानंद के कवित्त / सवैया", "subject_id": 156 },
+  // { "title": "Antra: प्रेमघन की छाया-स्मृति", "subject_id": 156 },
+  // { "title": "Antra: सुमिरिनी के मनके", "subject_id": 156 },
+  // { "title": "Antra: संवदिया", "subject_id": 156 },
+  // { "title": "Antra: गांधी, नेहरू और यास्सेर अराफ़ात", "subject_id": 156 },
+  // { "title": "Antra: शेर, पहचान, चार हाथ, साझा", "subject_id": 156 },
+  // { "title": "Antra: जहाँ कोई वापसी नहीं", "subject_id": 156 },
+  // { "title": "Antra: दूसरा देवदास", "subject_id": 156 },
+  // { "title": "Antra: कुटज", "subject_id": 156 }
+]
+
+
+

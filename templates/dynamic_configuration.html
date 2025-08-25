@@ -1,0 +1,145 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block scripts %}
+    <script src="{% static 'js/base.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <script src="{% static 'js/dynamic_configuration.js' %}"defer></script>
+{% endblock %}
+
+{% block progress-bar %}
+    <div class="bg-gradient-to-r from-blue-500 to-purple-600 h-3 rounded-full transition-all duration-500 ease-out shadow-sm" style="width: 60%"></div>
+{% endblock %}
+
+
+{% block logo %}
+    <div class="text-center mb-8">
+        <div class="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-600 rounded-full mb-4">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21,13.89 7,23 12,20 17,23 15.79,13.88"></polyline></svg>
+        </div>
+        <h2 class="text-3xl font-bold gradient-text mb-2">Question Configuration</h2>
+        <p class="text-gray-600">Define question types and assessment parameters</p>
+    </div>
+{% endblock %}
+
+{% block content %}
+<div class="space-y-8">
+                    
+    <div class="bg-gradient-to-r from-green-50 to-emerald-50 p-6 rounded-2xl border border-green-100">
+        <div class="flex items-center justify-between mb-4">
+            <h3 class="text-lg font-semibold text-gray-800">Question Count Overview</h3>
+            <div class="bg-white px-4 py-2 rounded-lg shadow-sm">
+                <span class="question-count-display text-2xl font-bold text-green-600" data-count="0">0</span>
+                <span class="text-gray-600 ml-1">/ 15</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
+        <h3 class="font-semibold text-gray-800 mb-6">Question Types & Quantities</h3>
+        <form id="questionTypeForm">
+            <div id="questionTypeContainer">
+            <!-- Dynamic Fields Will Appear Here -->
+            </div>
+
+            <button
+                type="button"
+                onclick="addQuestionTypeBlock()"
+                class="mt-4 inline-flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+            >
+                + Add Question Type
+            </button>
+
+            <!-- <button
+            type="submit"
+            class="mt-6 w-full py-2 bg-green-600 text-white font-medium rounded-lg hover:bg-green-700"
+            >
+            Submit
+            </button> -->
+        </form>
+
+        <template id="questionTypeTemplate">
+            <div class="form-card bg-gray-50 p-4 rounded-lg border border-gray-200 mb-4 space-y-3 relative" data-id="_INDEX_">
+
+                <button
+                type="button"
+                onclick="this.parentElement.remove()"
+                class="absolute top-2 right-2 text-red-500 hover:text-red-700 text-sm"
+                >
+                ✕
+                </button>
+
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1">
+                        Select Question Type
+                        <span class="relative group inline-block ml-1">
+                        <span class="w-5 h-5 flex items-center justify-center text-white bg-blue-500 rounded-full text-xs font-bold cursor-pointer" title="Choose the question style">
+                            i
+                        </span>
+                        </span>
+                    </label>
+                    <select
+                        name="question_type"
+                        id="question_type__INDEX_"
+                        class="w-full border border-gray-300 rounded-md p-2"
+                        onchange="getCurrentActiveBlock(this, this.closest('.form-card'))"
+                    >
+                    <option value="">Choose Question Type</option>
+                        {% for question_type in question_types %}
+                            <option value={{question_type.id}}>{{question_type.type}}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <div>
+                <label for="quantity__INDEX_" class="block text-sm font-medium text-gray-700 mb-1">Number of Questions</label>
+                <input type="number" id="quantity__INDEX_" name="quantity" class="w-full border border-gray-300 rounded-md p-2" min="1" onchange="updateQuestionCountDisplay()" />
+                </div>
+
+                <div>
+                <label for="marks__INDEX_" class="block text-sm font-medium text-gray-700 mb-1">Marks per Question</label>
+                <input id="marks__INDEX_" type="number" name="marks" class="w-full border border-gray-300 rounded-md p-2" min="1" />
+                </div>  
+
+
+            </div>
+        </template>
+
+        <div class="warning-element"></div>
+        
+    </div>
+
+        <div class="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
+            <h3 class="font-semibold text-gray-800 mb-4">Bloom's Taxonomy Focus (Multi-Select)</h3>
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                {% for level in bloom_levels %}
+                    <button id="bloom-level-{{level.id}}" data-id="{{level.id}}" type="button" class="bloom-button p-4 rounded-xl border-2 transition-all duration-300 border-gray-200 hover:shadow-md hover:border-gray-300 bg-white">
+                        <div class="text-center">
+                            <div class="text-2xl mb-2">{{level.icon}}</div>
+                            <div class="font-medium text-sm">{{level.name}}</div>
+                        </div>
+                    </button>
+                {% endfor %}
+            </div>
+                <div class="mt-4 p-3 bg-green-50 rounded-lg">
+                    <p class="text-sm text-green-700">
+                        <span class="selected-bloom-value font-medium">Selected:</span>
+                    </p>
+                </div>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
+            <h3 class="font-semibold text-gray-800 mb-4">
+                Difficulty Distribution
+                <span class="ml-3 px-3 py-1 rounded-full text-sm font-medium ${
+                    getDifficultyTotal() === 100 
+                        ? 'bg-green-100 text-green-800' 
+                        : 'bg-yellow-100 text-yellow-800'
+                }">
+                </span>
+            </h3>
+            <div class="difficulty-level grid grid-cols-2 md:grid-cols-4 gap-4"></div>
+            <div class="percentage-warning"></div>
+        </div>
+    </div>
+{% endblock %}

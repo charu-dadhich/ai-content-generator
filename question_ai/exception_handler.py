@@ -1,0 +1,4 @@
+class CustomAppException(Exception):
+    pass
+
+
