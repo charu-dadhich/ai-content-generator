@@ -1,0 +1,32 @@
+[
+    {
+        "grade_start_id": 1,
+        "grade_end_id": 12,
+        "service_type_id": 12
+    },
+    {
+        "grade_start_id": 6,
+        "grade_end_id": 12,
+        "service_type_id": 16
+    },
+    {
+        "grade_start_id": 1,
+        "grade_end_id": 12,
+        "service_type_id": 17
+    },
+    {
+        "grade_start_id": 1,
+        "grade_end_id": 12,
+        "service_type_id": 18
+    },
+    {
+        "grade_start_id": 1,
+        "grade_end_id": 12,
+        "service_type_id": 19
+    },
+    {
+        "grade_start_id": 1,
+        "grade_end_id": 12,
+        "service_type_id": 35
+    }
+]

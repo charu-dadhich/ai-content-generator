@@ -1,44 +1,51 @@
-from django.views import View
-from django.http import JsonResponse
-from django.db import transaction
-from django.conf import settings
-from app.base.models import ServiceType
-from .forms import GeneratedQuestionForm
-from .serializers import QuestionAnswerSerializer, CustomQuestionTypeDetailSerializer
-from .models import QuestionAnswer, QuestionPaper, DetailQuestionPaperScheme, CustomQuestionTypeDetail
-from utils.gpt import CustomAI
-import json
-import re
-import demjson3
+from rest_framework.views import APIView
+from utils import Responder, Helper
+from .serializers import (
+    QuestionAnswerSerializer,
+    CustomQuestionTypeDetailSerializer,
+    QuestionPaperSerializer,
+    RegenerateQuestionSerializer,
+    GeneratedQuestionSerializer
+)
+from .models import (
+    QuestionAnswer, 
+    QuestionPaper,
+    CustomQuestionTypeDetail
+)
 
 
-class GenerateQuestionView(View):
+# class GenerateQuestionView(APIView):
 
-    def post(self, request):
-        # import json
-        print(request.FILES)
-        print(request.POST)
-        ifile = request.FILES.get('file_input')
-        print(ifile)
-        # data = json.loads(request.body)
-        # print("data----->", data)
-        form = GeneratedQuestionForm(request.POST, request.FILES)
-        if form.is_valid():
-            # cleaned_data = form.cleaned_data
-            question_paper, answers = form.save()
-            serializer = QuestionAnswerSerializer(answers, many=True)
-            ques_data = serializer.data
-            response_data = {
-                'question_paper_id': question_paper.id,
-                'total_questions': question_paper.total_questions,
-                'questions_data': ques_data
-            }
-            print(response_data)
-            return JsonResponse({"status_code": 200, "data": response_data})
-        else:
-            print("Form errors:", form.errors)
-            print("Non-field errors:", form.non_field_errors())
-            return JsonResponse({"status_code": 400})
+#     def post(self, request):
+#         # import json
+#         last_question_paper = QuestionPaper.objects.get_last_generated_by_user(request.user)
+#         if not Helper.check_can_generate(last_question_paper.created_at):
+#             return JsonResponse({"status_code": 400, "message": "try it after few minutes!"})
+#         print(request.FILES)
+#         print(request.POST)
+#         ifile = request.FILES.get('file_input')
+#         print(ifile)
+#         # data = json.loads(request.body)
+#         # print("data----->", data)
+#         form = GeneratedQuestionForm(request.POST, request.FILES)
+        
+#         if form.is_valid():
+#             # cleaned_data = form.cleaned_data
+#             question_paper, answers = form.save()
+#             request.user.generation_attempts += 1
+#             serializer = QuestionAnswerSerializer(answers, many=True)
+#             ques_data = serializer.data
+#             response_data = {
+#                 'question_paper_id': question_paper.id,
+#                 'total_questions': question_paper.total_questions,
+#                 'questions_data': ques_data
+#             }
+#             print(response_data)
+#             return JsonResponse({"status_code": 200, "data": response_data})
+#         else:
+#             print("Form errors:", form.errors)
+#             print("Non-field errors:", form.non_field_errors())
+#             return JsonResponse({"status_code": 400})
         # return JsonResponse({"status_code": 400})
 
             # question_paper_attrs = {
@@ -177,15 +184,41 @@ class GenerateQuestionView(View):
                 #         }
                 #         print(response_data)
                 #         return JsonResponse({"status_code": 200, "data": response_data})
-                # return JsonResponse({"status_code": 400})
-        
+                # return JsonResponse({"status_code": 400})      
 
 
-class CustomQuestionTypeView(View):
+class GenerateQuestionView(APIView):
+    def post(self, request):
+        last_question_paper = QuestionPaper.objects.get_last_generated_by_user(request.user)
+        if not Helper.check_can_generate(last_question_paper.created_at):
+            Responder.accept(167)
+        serializer = GeneratedQuestionSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        question_paper, answers = serializer.save()
+        data = QuestionPaperSerializer(question_paper).data
+        qa_data = QuestionAnswerSerializer(answers, many=True).data
+        data['qa_data'] = qa_data
+        data['content_type'] = 'Questions'
+        return Responder.send(192, data)
+
+
+class CustomQuestionTypeView(APIView):
 
     def get(self, request):
         question_types = CustomQuestionTypeDetail.objects.get_all()
         serializer = CustomQuestionTypeDetailSerializer(question_types, many=True)
         data = serializer.data
-        print(data)
-        return JsonResponse({'data': data, 'status_code': 200, 'status': True})
+        return Responder.send(193, data)
+
+
+class RegenerateQuestionView(APIView):
+
+    def post(self, request):
+        serializer = RegenerateQuestionSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        data = serializer.save()
+        answers = QuestionAnswer.objects.get_by_question_paper_id(data["question_paper"])
+        data = QuestionPaperSerializer(data['question_paper']).data
+        data['qa_data'] = QuestionAnswerSerializer(answers, many=True).data
+        data['content_type'] = 'Questions'
+        return Responder.send(100, data)

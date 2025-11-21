@@ -13,6 +13,8 @@ var learningObjectiveInput = document.getElementById('learning-objective')
 var apiUrl = null
 var serviceTypeValue = 0
 var formFields = document.querySelector('.the-hidden-one'); 
+var activityDuration = document.querySelector('.activity-area')
+var activityDurationInput = document.getElementById('activity-time')
 
 window.onload = function() {
     const serviceElement = document.querySelector('.question-type')
@@ -64,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let generationSelectedValue = null;
     const autoOption = document.getElementById('option-1');
     const customOption = document.getElementById('option-2');
-    nextBtn.disabled = true;
+    nextBtn.disabled = false;
     let isClicked = false;
     let customIsClicked = false;
     // const fileName = document.getElementById('#file-name-display')
@@ -231,13 +233,19 @@ function checkSaveFields(){
             if (hasError){nextBtn.disabled = true; document.getElementById('error-number_of_lo').textContent = 'Must be less than or equal to 10';return;}
             else {document.getElementById('error-number_of_lo').textContent = ''}
         }
-        // else{
-
-        // }
+        else if (questionType.value == 36){
+            console.log(Number(activityDurationInput.value))
+            if (Number(activityDurationInput.value) < 10 || Number(activityDurationInput.value) > 60) {
+                hasError = true;
+            }
+            if (hasError){nextBtn.disabled = true; document.getElementById('error-number_of_lo').textContent = 'Must be less than or equal to 10';return;}
+            else {document.getElementById('error-activity-time').textContent = ''}
+        }
     }
     else {
         sessionStorage.removeItem('form-2-data')
         learningObjective.classList.add('hidden')
+        activityDuration.classList.add('hidden')
         console.log("lese", fileInput?.files.length)
         // if (questionType.value && language.value && fileInput?.files.length > 0 ) {
         //     console.log("in if", fileInput.files[0], fileInput.files)
@@ -259,7 +267,8 @@ function checkSaveFields(){
             sub_topic: subTopic?.value,
             generation_type: generationSelectedValue === "option-1"? "custom": "auto",
             file_input: selectedFile,
-            number_of_lo: learningObjectiveInput.value?Number(learningObjectiveInput.value):10
+            number_of_lo: learningObjectiveInput.value?Number(learningObjectiveInput.value):10,
+            activity_time_in_mins: activityDurationInput?Number(activityDurationInput.value):15
         }));
     }
 }
@@ -276,6 +285,17 @@ function serviceTypeChange(e){
         console.log("here in if 19", e.target, learningObjective)
         apiUrl = '/learning-objectives/'
     }
+    else if ([36, 37].includes(serviceTypeValue)) {
+        console.log("here")
+        formFields.classList.add('hidden')
+        apiUrl = '/activities/meta-cognitive/'
+        if (generationSelectedValue === "option-1"){
+            activityDuration.classList.remove('hidden')
+            activityDuration.classList.add('block')
+        }
+        if (serviceTypeValue === 36)
+            apiUrl = '/activities/classroom/'
+    }
     else{
         console.log("in else part", generationSelectedValue)
         if (generationSelectedValue === "option-1"){
@@ -284,6 +304,7 @@ function serviceTypeChange(e){
             formFields.classList.remove('hidden')
         }
         learningObjective.classList.add('hidden')
+        activityDuration.classList.add('hidden')
         apiUrl = '/questions/'
     }
 }
@@ -294,6 +315,7 @@ fileInput.addEventListener('change', checkSaveFields);
 topic.addEventListener('input', checkSaveFields);
 subTopic.addEventListener('input', checkSaveFields);
 learningObjective.addEventListener('input', checkSaveFields);
+activityDuration.addEventListener('input', checkSaveFields);
 
 prevBtn.addEventListener('click', function() {
     history.back()
@@ -398,7 +420,7 @@ nextBtn.addEventListener('click', async(e) => {
         // reader.readAsDataURL(selectedFile);
         // console.log(reader.readAsDataURL(selectedFile))
     console.log(formData, serviceTypeValue, typeof(serviceTypeValue))
-    if (serviceTypeValue !== 19) {
+    if ([12, 15, 17, 18, 35, 7, 13].includes(serviceTypeValue)){
         // document.querySelector(".preload").style.display = "block";
         // init()
         console.log("api end")
@@ -487,7 +509,50 @@ nextBtn.addEventListener('click', async(e) => {
             showToast("Got some error while generating. Please try again", true)
         }
     }
-    // else {
-        
-    // }      
+    else if ([36, 37].includes(serviceTypeValue)){
+        document.body.classList.add('overflow-hidden');
+        document.querySelector(".preload").style.display = "block";
+        init()
+        console.log("inside else", serviceTypeValue)
+        console.log("api end")
+        console.log(apiUrl)
+        formData.append("file_input", selectedFile)
+        formData.append("generation_type", "auto")
+        if (serviceTypeValue === 36){
+            formData.append("activity_type", "classroom")
+        }
+        else {
+            formData.append("activity_type", "meta_cognitive")
+        }
+        sessionStorage.removeItem('form-3-data')
+        try {
+            const response = await fetch(apiUrl, {
+                method: 'POST',
+                headers: {
+                    'X-CSRFToken': csrftoken
+                },
+                body: formData
+            });
+            
+            const result = await response.json();
+            
+            if (!response.ok || result.status === false) {
+                console.error("Backend error:", result);
+                document.body.classList.remove('overflow-hidden');
+                document.querySelector(".preload").style.display = "none";
+                document.body.classList.add('h-full', 'm-0')
+                showToast("Got some error while generating. Please try again", true)
+                return;
+            }
+            document.body.classList.remove('overflow-hidden');
+            document.querySelector(".preload").style.display = "none";
+            window.location.href =  `/education-content-generator/activity/${result.data.id}`;
+        } catch (error) {
+            console.error('Error posting merged data:', error);
+            document.body.classList.remove('overflow-hidden');
+            document.querySelector(".preload").style.display = "none";
+            document.body.classList.add('h-full', 'm-0')
+            showToast("Got some error while generating. Please try again", true)
+        }
+    }      
 });

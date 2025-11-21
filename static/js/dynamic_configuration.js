@@ -203,17 +203,39 @@ function getCurrentActiveBlock(selectElement, currentBlock) {
           <label for="subjective" class="block text-sm font-medium text-gray-700 mb-1">Number of Subjective Questions</label>
           <input type="number" id="subjective" name="subjective-quantity" class="w-full border border-gray-300 rounded-md p-2" min="1" />
         </div>
+        <div>
+            <label for="word_limit" class="block text-sm font-medium text-gray-700 mb-1">Word limit</label>
+            <input type="number" id="word_limit" name="word-limit-quantity" class="w-full border border-gray-300 rounded-md p-2" min="1" />
+        </div>
       `;
       currentBlock.appendChild(extraDiv);
       checkTotalSubQuestions(currentBlock);
     }
-  } 
+  }
+  else if (!(["11", "12", "22", "18", "19", "9"].includes(type))){
+    if (existingCaseExtras) {
+        extraDiv.innerHTML += `<div>
+            <label for="word_limit" class="block text-sm font-medium text-gray-700 mb-1">Word limit</label>
+            <input type="number" id="word_limit" name="word-limit-quantity" class="w-full border border-gray-300 rounded-md p-2" min="1" />
+        </div>`
+        currentBlock.appendChild(extraDiv);
+    }
+    else {
+        const extraDiv = document.createElement('div');
+        extraDiv.classList.add('extra-case-fields');
+        extraDiv.innerHTML = `
+        <div>
+            <label for="word_limit" class="block text-sm font-medium text-gray-700 mb-1">Word limit</label>
+            <input type="number" id="word_limit" name="word-limit-quantity" class="w-full border border-gray-300 rounded-md p-2" min="1" />
+        </div>`
+        currentBlock.appendChild(extraDiv);
+    }
+  }
   else {
     if (existingCaseExtras) {
       existingCaseExtras.remove();
     }
   }
-
 }
 
 
@@ -340,6 +362,10 @@ window.checkSaveForm3Data = function() {
                 objVal = parseInt(obj.value);
                 subjVal = parseInt(subj.value);
             }
+            if (!["9"].includes(type.value)) {
+                var word_limit = block.querySelector('#word_limit');
+                wordVal = parseInt(word_limit.value);
+            }
             console.log(quantity.value, marks.value, subVal, subjVal, objVal)
             data[mappedType] = JSON.stringify({
                 number_of_questions: Number(quantity.value),
@@ -347,6 +373,7 @@ window.checkSaveForm3Data = function() {
                 total_sub_questions: subVal,
                 sub_subjective_questions: subjVal,
                 sub_objective_questions: objVal,
+                word_limit: wordVal
             });            
         })
         data['bloom_filters'] = JSON.stringify(selectedLevel);

@@ -17,6 +17,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from django.views.generic.base import RedirectView
+from question_ai.exception_handler import custom_404_view
 
 
 urlpatterns = [
@@ -24,7 +25,11 @@ urlpatterns = [
     path('', RedirectView.as_view(url="education-content-generator/")),
     path('questions/', include("app.question.urls")),
     path('learning-objectives/', include("app.learning_objective.urls")),
+    path('activities/', include("app.activity.urls")),
     path('prompts/', include("app.prompt.urls")),
-    path('education-content-generator/', include("app.base.urls")),  
-    # path('users/', include("app.user.urls")),
+    # path('education-content-generator/', include("app.utils.urls")), 
+    path('users/', include("app.user.urls")),
+    path('utils/', include("app.utils.urls")),
 ]
+
+handler404 = custom_404_view

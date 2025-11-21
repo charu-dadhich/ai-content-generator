@@ -7,7 +7,7 @@ from django import forms
 from django.db import transaction
 from django.core.exceptions import ValidationError
 from django.conf import settings
-from app.base.models import Board, Standard, Chapter, Subject, ServiceType
+from app.utils.models import Board, Standard, Chapter, Subject, ServiceType
 from .models import QuestionPaper, DetailQuestionPaperScheme, QuestionAnswer
 from utils.gpt import CustomAI
 from utils import Validator
@@ -186,7 +186,7 @@ class GeneratedQuestionForm(forms.Form):
                     x = {
                         'detail': r.pop('question', ''),
                         'question_type': r.pop('type_of_question', ''),
-                        'marks': r.pop('marks'),
+                        'marks': r.pop('marks', ''),
                         'question_paper': question_paper
                     }
                     print(x)

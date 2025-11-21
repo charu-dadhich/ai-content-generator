@@ -1,50 +1,50 @@
 [
     {
-        "type": "Multiple Choice Questions"
+        "question_type": "Multiple Choice Questions"
     },
     {
-        "type": "Assertion and Reason Questions"
+        "question_type": "Assertion and Reason Questions"
     },
     {
-        "type": "Case Based Questions"
+        "question_type": "Case Based Questions"
     },
     {
-        "type": "Paragraph Based Questions"
+        "question_type": "Paragraph Based Questions"
     },
     {
-        "type": "Fill in the blanks Questions"
+        "question_type": "Fill in the blanks Questions"
     },
     {
-        "type": "Match the following Questions"
+        "question_type": "Match the following Questions"
     },
     {
-        "type": "Short Answer Questions"
+        "question_type": "Short Answer Questions"
     },
     {
-        "type": "Long Answer Questions"
+        "question_type": "Long Answer Questions"
     },
     {
-        "type": "Application Based Questions"
+        "question_type": "Application Based Questions"
     },
     {
-        "type": "Reference to Context Questions"
+        "question_type": "Reference to Context Questions"
     },
     {
-        "type": "Statement Based Questions"
+        "question_type": "Statement Based Questions"
     },
     {
-        "type": "Parallel Questions"
+        "question_type": "Parallel Questions"
     },
     {
-        "type": "Writing Skill Based Questions"
+        "question_type": "Writing Skill Based Questions"
     },
     {
-        "type": "Source Based Questions"
+        "question_type": "Source Based Questions"
     },
     {
-        "type": "Critical Analysis Based Questions"
+        "question_type": "Critical Analysis Based Questions"
     },
     {
-        "type": "If Based Questions"
+        "question_type": "If Based Questions"
     }
 ]

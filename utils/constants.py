@@ -1,6 +1,68 @@
 class Constant:
-    responder_messages = {
-        100: "Done sucessfully!"
+    response_messages = {
+        500: "Internal server error.",
+        501: "The requested API endpoint is not valid.",
+        502: "The provided data is not in a valid JSON format.",
+        503: "The 'Content-Type' header should be set to 'application/json'.",
+        504: "User authentication failed.",
+        505: "The requested HTTP method is not allowed.",
+        506: "Sorry, you are not authorized to perform this action.",
+        507: "Invalid parameter value provided.",
+        508: "Required parameter or value is missing.",
+        509: "User access token is expired or invalid.",
+        510: "Your daily quota has been exhausted. Please try again later.",
+
+        100: "Done sucessfully!",
+        101: "Email does not exists!",
+        102: "Login Successfull!",
+        103: "Password is incorrect!",
+        104: "Password changed successfully",
+        105: "New Password cannot be same as the old password",
+        106: "New password and confirm password do not match!",
+        107: "Password should contain minimum 8 characters",
+        108: "Password should contain at least a digit",
+        109: "Password should contain at least an uppercase character",
+        110: "Password should contain at least a lowercase character",
+        111: "Password should contain at least on special character like [ ()[\]{}|\\`~!@#$%^&*_\-+=;:\"',<>./?]",
+        112: "Old Password is not correct!",
+
+        151: "Below is the list of all services.",
+        152: "The standard id is invalid",
+        153: "The subject id is invalid",
+        154: "Below is the list of all chapters.",
+        155: "The board id is invalid",
+        156: "Below is the list of boards.",
+        157: "Below is the list of all grades.",
+        158: "Below is the list of all subjects in the mentioned grade.",
+        159: "The question paper with this id does not exists.",
+        160: "The question with this id does not exists.",
+        161: "The prompt with this id does not exists.",
+        162: "The questions are regenerated successfully.",
+        163: "The regeneration data is missing.",
+        164: "The chapter id is invalid",
+        165: "Got some missing values",
+        166: "The file input is missing.",
+        167: "Try it after sometime",
+        168: "The service type id is invalid",
+        169: "The service type id sent is not correct according to service",
+        170: "Please try again",
+
+        171: "Learning Objective created successfully!",
+        172: "Please enter number_of_lo key, if generating custom type LO.",
+        173: "Number of learning objectives should be greater than 0 and less than 11",
+        174: "Learning Objective with this id is not found.",
+        175: "Learning Objective updated successfully!",
+
+        181: "The activity is created successfully!",
+        182: "The activity is changed successfully!",
+        183: "The activity id is not found.",
+        184: "Please send activity_time_in_mins, if generating for custom type.",
+        185: "Activity time should be greater than 4 and less than 61.",
+
+        191: "Something went wrong. Try again.",
+        192: "Questions created successfully!",
+        193: "Below is the list of question types.",
+        194: "File content is not correct"
     }
 
     GENERAL_QUESTIONS_FORMAT=  ''' * For Assertion and Reason 
@@ -440,6 +502,11 @@ class Choice:
     GENERATION_TYPE = [
         ("auto", "Auto"),
         ("custom", "Custom"),
+    ]
+
+    ACTIVITY_TYPE = [
+        ("classroom", "Classroom"),
+        ("meta_cognitive", "Meta Cognitive")
     ]
 
     # PROMPT_TYPE = [

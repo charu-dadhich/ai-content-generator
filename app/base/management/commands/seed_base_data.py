@@ -3,7 +3,7 @@ import json
 import traceback
 from django.core.management.base import BaseCommand
 from django.db import transaction
-from app.base.models import Standard, Board, Subject, Chapter, ServiceType, BloomsLevel
+from app.utils.models import ClassWiseSubject, Chapter
 from app.question.models import CustomQuestionTypeDetail
 
 
@@ -16,10 +16,15 @@ class Command(BaseCommand):
             # Board: '../../../../../seeders/boards.json',
             # Subject: '../../../../../seeders/subjects.json',
             # Standard: '../../../../../seeders/classes.json',
-            # Chapter: '../../../../../seeders/seed_10.json',
-            ServiceType: '../../../../../seeders/question_type.json'
+            Chapter: '../../../../../seeders/cbse_chapters.json',
+            # ServiceType: '../../../../../seeders/question_type.json'
+            # ClassWiseSubject: '../../../../../seeders/class_wise_subjects.json'
+            
+
             # CustomQuestionTypeDetail: '../../../../../seeders/detail_question_type.json',
             # BloomsLevel: '../../../../../seeders/bloom_levels.json'
+            # BaseSubject: '../../../../../seeders/base_subjects.json'
+            # ServiceGrade: '../../../../../seeders/service_grade.json'
         }
         for key, val in seed_file_path.items():
             file_path = os.path.abspath(os.path.join(current_path, val))

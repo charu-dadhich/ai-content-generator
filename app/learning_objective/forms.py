@@ -2,7 +2,7 @@ from django import forms
 from .models import LearningObjective
 from django.conf import settings
 from django.core.exceptions import ValidationError
-from app.base.models import Board, Standard, Chapter, Subject
+from app.utils.models import Board, Standard, Chapter, Subject
 from utils import CustomAI, Validator
 import os
 import time

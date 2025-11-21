@@ -2,7 +2,8 @@ from django.urls import path
 from .views import (
     CreatePromptView,
     SubjectPromptView,
-    GradePromptView
+    GradePromptView,
+    # RegenerateView,
 )
 
 

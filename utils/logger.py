@@ -27,7 +27,7 @@ class Logger:
     @classmethod
     def info(cls, request, response, start_time):
         request_body = getattr(request, 'extracted_body', 'NA')
-        print("inside logger file", request_body)
+        # print("inside logger file", request_body)
         current_time = timezone.localtime().strftime("%I:%M:%S %p (%Z)")
         headers_duplicate = dict(request.headers)
         execution_time = (timezone.localtime() - start_time).total_seconds()
@@ -45,10 +45,11 @@ class Logger:
         cls.loggers['server'].info(data.replace('  ', ''))
 
     @classmethod
-    def error(cls, request, error, detail):
+    def error(cls, request, error):
+        request.data.pop('file_content', '')
         data = f'''XXXXXXXXXXXXXXXXXXXXXXXXXX[ ERROR ]XXXXXXXXXXXXXXXXXXXXXXXXXX
         Unable to process the request: {request}
+        Request data: {request.data}
         Error: {error}
-        Detail: {detail}
         *************************************************************\n'''.replace('  ', '')
         cls.loggers['error'].error(data)

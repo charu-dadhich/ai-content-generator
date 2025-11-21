@@ -197,7 +197,7 @@ document.addEventListener('DOMContentLoaded', function () {
     nextBtn = document.getElementById('next-btn');
     prevBtn = document.getElementById('prevBtn')
     // Start with Next disabled
-    nextBtn.disabled = true;
+    nextBtn.disabled = false;
     prevBtn.disabled = true;
 
     function allFieldsFilled() {

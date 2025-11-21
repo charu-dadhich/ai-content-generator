@@ -1,30 +1,36 @@
-from django.views import View
-from .forms import LearningObjectiveForm
-# from .serializers import CreateLearningObjectiveSerializer
-# from django.http import JsonResponse
+from rest_framework.views import APIView
+from .serializers import (
+    GenerateLearningSerializer,
+    LearningObjectiveSerializer,
+    ChangeLearningObjectiveSerializer,
+)
 from utils import Responder
+from .models import LearningObjective
 
 
-class CreateLearningObjectiveView(View):
+class CreateLearningObjectiveView(APIView):
     def post(self, request):
-        form = LearningObjectiveForm(request.POST, request.FILES)
-        if form.is_valid():
-            print("inside if", form)
-            lo = form.save()
-            print("after save",lo)
-            # serializer = CreateLearningObjectiveSerializer(lo)
-            # data = serializer.data
-            data = {}
-            data['id'] = lo.id
-            print("data", data)
-            return Responder.send(100, data)
-            # return JsonResponse({"status_code": 200, "data": data})
-        else:
-            print("Form errors:", form.errors)
-            print("Non-field errors:", form.non_field_errors())
-            # errors = form.errors + form.non_field_errors()
-            # print("djjsjio",errors)
-            for key, value in form.errors.items():
-                errors = f"{key}: {value}"
-            return Responder.error(100, errors)
-            # return JsonResponse({"status_code": 400})
+        serializer = GenerateLearningSerializer(data=request.data, context={'user': request.user})
+        serializer.is_valid(raise_exception=True)
+        learning_objective_object = serializer.save()
+        data = LearningObjectiveSerializer(learning_objective_object).data
+        data['content_type'] = 'Learning Objectives'
+        data['service_type'] = 'Learning Objectives'
+        return Responder.send(171, data)
+
+
+class ChangeLearningObjectiveView(APIView):
+    def _get_data(self, pk):
+        if not (lo := LearningObjective.objects.get_by_pk(pk)):
+            Responder.accept(174)
+        return lo
+
+    def patch(self, request, pk):
+        lo = self._get_data(pk)
+        serializer = ChangeLearningObjectiveSerializer(lo, data=request.data)
+        serializer.is_valid(raise_exception=True)
+        new_lo = serializer.save()
+        data = LearningObjectiveSerializer(new_lo).data
+        data['content_type'] = 'Learning Objectives'
+        data['service_type'] = 'Learning Objectives'
+        return Responder.send(175, data)

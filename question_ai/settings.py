@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 from pathlib import Path
 import environ
 import os
+from celery.schedules import crontab
 
 env = environ.Env()
 env.read_env()
@@ -29,32 +30,38 @@ SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = env.bool('DEBUG')
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = env.list('ALLOWED_HOSTS')
 
+CORS_ALLOWED_ORIGINS = env.list('CORS_ALLOWED_ORIGINS')
+CORS_ALLOW_ALL_ORIGINS = env.bool('CORS_ALLOW_ALL_ORIGINS')
 
 # Application definition
 
 INSTALLED_APPS = [
+    'jazzmin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'django_celery_beat',
     'loguru',
     'app.base',
-    # 'app.standards',
-    # 'app.subjects',
+    'app.utils',
     'app.user',
     'app.question',
     'app.learning_objective',
     'app.prompt',
-    'rest_framework',
+    'app.activity',
+    'corsheaders'
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -62,6 +69,19 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'question_ai.middlewares.logger_middleware.LoggerMiddleware'
 ]
+
+REST_FRAMEWORK = {
+    "DEFAULT_AUTHENTICATION_CLASSES": [
+        "question_ai.authentication.UserTokenAuthentication"
+    ],
+    "DEFAULT_PERMISSION_CLASSES": (
+        "question_ai.permissions.IsAuthenticated",
+    ),
+    "DEFAULT_RENDERER_CLASSES": (
+        "rest_framework.renderers.JSONRenderer",
+    ),
+    "EXCEPTION_HANDLER": "question_ai.exception_handler.handle_errors",
+}
 
 ROOT_URLCONF = 'question_ai.urls'
 
@@ -89,13 +109,25 @@ WSGI_APPLICATION = 'question_ai.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': env('DB_NAME'),
+        'ENGINE': 'django.db.backends.mysql',
         'USER': env('DB_USER'),
-        'PASSWORD': env('DB_PASSWORD'),
         'HOST': env('DB_HOST'),
-        'PORT': env('DB_PORT')
-        # 'OPTIONS': {'charset': 'utf8mb4'}
+        'PASSWORD': env('DB_PASSWORD'),
+        'NAME': env('DB_NAME'),
+        'PORT': env('DB_PORT'),
+        'OPTIONS': {
+            'charset': 'utf8mb4',
+        },
+    }
+}
+
+CACHES = {
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": env('CACHE_BROKER_URL'),
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
     }
 }
 
@@ -137,7 +169,6 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 STATICFILES_DIRS = [BASE_DIR / "static"]
-print(STATICFILES_DIRS)
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
@@ -151,8 +182,32 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AUTH_USER_MODEL = 'user.User'
 
 APPEND_SLASH = True
-DEFAULT_ONE_MARK_QUESTIONS = env('DEFAULT_ONE_MARK_QUESTIONS')
-DEFAULT_TWO_MARK_QUESTIONS = env('DEFAULT_TWO_MARK_QUESTIONS')
-DEFAULT_FOUR_MARK_QUESTIONS = env('DEFAULT_FOUR_MARK_QUESTIONS')
-# CSRF_TRUSTED_ORIGINS = ['http://localhost:8000']
-# CORS_ALLOW_CREDENTIALS = True
+DEFAULT_ONE_MARK_QUESTIONS = env.int('DEFAULT_ONE_MARK_QUESTIONS')
+DEFAULT_TWO_MARK_QUESTIONS = env.int('DEFAULT_TWO_MARK_QUESTIONS')
+DEFAULT_FOUR_MARK_QUESTIONS = env.int('DEFAULT_FOUR_MARK_QUESTIONS')
+CORS_ALLOW_ALL_ORIGINS = env.bool('CORS_ALLOW_ALL_ORIGINS')
+CORS_ALLOWED_ORIGINS = env.list('CORS_ALLOWED_ORIGINS')
+GENERATION_TIME_IN_SECONDS = env.int('GENERATION_TIME_IN_SECONDS')
+REGENERATION_TIME_IN_SECONDS = env.int('REGENERATION_TIME_IN_SECONDS')
+AUTH_TOKEN_EXPIRY_DAYS = env.int('AUTH_TOKEN_EXPIRY_DAYS')
+
+CELERY_BEAT_SCHEDULER = 'django_celery_beat.schedulers:DatabaseScheduler'
+
+CELERY_BEAT_SCHEDULE = {
+    "delete_questions_generated_before_24_hrs": {
+        'task': 'app.question.tasks.delete_questions_data',
+        "schedule": crontab(minute=0, hour=0)
+    },
+    "delete_lo_generated_before_24_hrs": {
+        'task': 'app.learning_objective.tasks.delete_learning_objectives_data',
+        "schedule": crontab(minute=0, hour=0)
+    },
+    "delete_activities_generated_before_24_hrs": {
+        'task': 'app.activity.tasks.delete_activities_data',
+        "schedule": crontab(minute=0, hour=0)
+    }
+}
+
+CELERY_BROKER_URL = env("CELERY_BROKER_URL")
+API_KEY = env('API_KEY')
+DATA_UPLOAD_MAX_MEMORY_SIZE = 12582912
